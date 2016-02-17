@@ -36,7 +36,7 @@
                 <PVStructure>
                     <Property name="option-type" value="_dropdown"/>
                     <Property name="choices">
-                        <Value>a</Value>
+                        <Value>c</Value>
                         <Value>b</Value>
                     </Property>
                     <Property name="correct-index" value="0"/>

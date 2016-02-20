@@ -36,7 +36,7 @@
                 <PVStructure>
                     <Property name="option-type" value="_dropdown"/>
                     <Property name="choices">
-                        <Value>asdf</Value>
+                        <Value>asdfg</Value>
                         <Value>qwerty</Value>
                     </Property>
                     <Property name="correct-index" value="0"/>

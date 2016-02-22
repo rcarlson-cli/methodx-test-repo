@@ -31,13 +31,41 @@
             <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="2"/>
-            <Property name="text" value="&lt;p&gt;&lt;span&gt;regular dropdown&lt;/span&gt;&lt;span&gt;&lt;span&gt;{{1}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;Textbox &lt;/span&gt;&lt;span&gt;&lt;span&gt;{{1}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="answer" value="asd"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component5">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_MATH_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="3"/>
+            <Property name="text" value="x=[[2*{{1}}]/[3]]"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="answer" value="3"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component6">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="4"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;&lt;span&gt;{{1}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"/>
             <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_dropdown"/>
                     <Property name="choices">
-                        <Value>asdfg</Value>
-                        <Value>qwerty</Value>
+                        <Value>1</Value>
+                        <Value>2</Value>
                     </Property>
                     <Property name="correct-index" value="0"/>
                 </PVStructure>

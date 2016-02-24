@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
+    <Property name="name" value="test_sec_test_publish"/>
+    <Property name="lms-id" value="test_sec_test_publish"/>
+    <Property name="component1">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="1"/>
+            <Property name="text" value="&lt;p&gt;&lt;strong&gt;&lt;span&gt;The figure shows a hexagon.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component2">
+        <ConstructionPVs>
+            <Property name="type" value="SCENARIO_IMAGE"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="2"/>
+            <Property name="content" value="test_sec_test_publish_01.jpeg"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component3">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="1"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;Hello&lt;/span&gt;&lt;/p&gt;"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component4">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="2"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;Textbox &lt;/span&gt;&lt;span&gt;&lt;span&gt;{{1}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="answer" value="asdfga"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component5">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_MATH_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="3"/>
+            <Property name="text" value="{{1}}=[[{{2}}apples]/[3]]"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="answer" value="3"/>
+                </PVStructure>
+            </Property>
+            <Property name="option2">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="answer" value="a"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component6">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="4"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;&lt;span&gt;{{1}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_dropdown"/>
+                    <Property name="choices">
+                        <Value>1</Value>
+                        <Value>2</Value>
+                    </Property>
+                    <Property name="correct-index" value="0"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component7">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="5"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;&lt;img alt=&quot;tutor_widget_sorting_1&quot; src=&quot;https://lh5.googleusercontent.com/enc9BZckaNbVVATla5-I6AgqzeZQuRht57yfbq8Aei0g3gFwlBNGzpQr498tF8iboWADsOsQEeGfODo90vQiRdlItAHgEVGimqXmm_oxggJFXjdmIKYyFGiFKIJ5JF5ldT0P3-qZ&quot; style=&quot;width: 149.33px; height: 149.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);&quot; title=&quot;&quot;/&gt;&lt;/span&gt;&lt;span&gt;hello there&lt;/span&gt;&lt;/p&gt;"/>
+        </ConstructionPVs>
+    </Property>
+</ProblemMetaData>

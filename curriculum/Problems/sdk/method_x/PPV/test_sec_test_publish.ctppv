@@ -35,7 +35,7 @@
             <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
-                    <Property name="answer" value="a"/>
+                    <Property name="answer" value="a1"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

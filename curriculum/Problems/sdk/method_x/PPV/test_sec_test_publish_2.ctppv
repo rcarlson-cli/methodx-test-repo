@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
+    <Property name="name" value="test_sec_test_publish_2"/>
+    <Property name="lms-id" value="test_sec_test_publish_2"/>
+    <Property name="component1">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="1"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;This is some test static content.&lt;/span&gt;&lt;/p&gt;"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component2">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="2"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;If you have access to this document, you should have access to the logic editor.&lt;/span&gt;&lt;/p&gt;"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component3">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="3"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;To try this out, open the &lt;/span&gt;&lt;strong&gt;&lt;span&gt;Carnegie Learning Problem Authoring Tool&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; Add-on&lt;/span&gt;&lt;span&gt; and click the red &lt;/span&gt;&lt;strong&gt;&lt;span&gt;Launch Logic Editor&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component4">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="1"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;This side is for tutored widgets. Fun, right?&lt;/span&gt;&lt;/p&gt;"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component5">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="2"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;Here’s a dropdown: &lt;/span&gt;&lt;span&gt;&lt;span&gt;{{1}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_dropdown"/>
+                    <Property name="choices">
+                        <Value>abc</Value>
+                        <Value>b</Value>
+                    </Property>
+                    <Property name="correct-index" value="0"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component6">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="3"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;And look at this text box. It is a good text box.&lt;/span&gt;&lt;/p&gt;"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component7">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="4"/>
+            <Property name="text" value="&lt;p&gt;&lt;span&gt;&lt;span&gt;{{1}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="answer" value="asdf"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+</ProblemMetaData>

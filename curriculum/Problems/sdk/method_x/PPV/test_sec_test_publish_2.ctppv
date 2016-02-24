@@ -44,7 +44,7 @@
                 <PVStructure>
                     <Property name="option-type" value="_dropdown"/>
                     <Property name="choices">
-                        <Value>a</Value>
+                        <Value>abc</Value>
                         <Value>b</Value>
                     </Property>
                     <Property name="correct-index" value="0"/>

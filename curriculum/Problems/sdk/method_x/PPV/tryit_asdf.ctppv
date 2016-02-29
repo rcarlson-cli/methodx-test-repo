@@ -7,7 +7,7 @@
             <Property name="type" value="TITLE"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="1"/>
-            <Property name="text" value="Calculating Compound Probabilities"/>
+            <Property name="text" value="Sample Problem"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
@@ -20,10 +20,25 @@
                 <PVStructure>
                     <Property name="option-type" value="_dropdown"/>
                     <Property name="choices">
-                        <Value>a</Value>
-                        <Value>b</Value>
+                        <Value>&lt;latex&gt;\frac{1}{2}&lt;/latex&gt;</Value>
+                        <Value>&lt;latex&gt;\frac{2}{3}&lt;/latex&gt;</Value>
                     </Property>
                     <Property name="correct-index" value="0"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component3">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="3"/>
+            <Property name="text" value="What is &lt;latex&gt;2+2&lt;/latex&gt;?&lt;br/&gt;{{1}}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="answer" value="&lt;latex&gt;\left(1+1\right)^2&lt;/latex&gt;"/>
+                    <Property name="checktype" value="_alg-equal"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

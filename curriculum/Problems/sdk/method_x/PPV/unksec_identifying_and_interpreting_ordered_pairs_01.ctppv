@@ -76,7 +76,7 @@
                 <PVStructure>
                     <Property name="option-type" value="_dropdown"/>
                     <Property name="choices">
-                        <Value>a1</Value>
+                        <Value>a</Value>
                         <Value>v</Value>
                     </Property>
                     <Property name="correct-index" value="0"/>

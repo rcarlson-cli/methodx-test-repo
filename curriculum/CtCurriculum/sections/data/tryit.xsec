@@ -19,8 +19,10 @@
         <ProblemSet>
            <SelectionAlgo type="REQUIRED" impl_class="Ordered"/>
            <ExitCriterion impl_class="cl.services.ct.sectiondata.knowledgetracing.TotalProblemCountCriterion">
-               <AttValue attribute="count" value="1"/>
+               <AttValue attribute="count" value="2"/>
            </ExitCriterion>
+           
+           <Problem problem_id="tryit_asdf"/>
            
            <Problem problem_id="tryit_identifying_and_interpreting_ordered_pairs_01"/>
            

@@ -17,7 +17,7 @@
                <AttValue attribute="count" value="1"/>
            </ExitCriterion>
            
-           <Problem problem_id="test_section_test_problem"/>
+           <Problem problem_id="test_section_foo"/>
            
         </ProblemSet>
 

@@ -7,72 +7,32 @@
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="1"/>
-            <Property name="text" value="Hi"/>
+            <Property name="text" value="This is a sample problem"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
         <ConstructionPVs>
-            <Property name="type" value="SORTING_TASK"/>
+            <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="2"/>
-            <Property name="accept-multiple-items" value="True"/>
-            <Property name="is-conjoined" value="False"/>
-            <Property name="is-items-on-top" value="False"/>
-            <Property name="items">
+            <Property name="text" value="Here’s a widget {{1}}"/>
+            <Property name="option1">
                 <PVStructure>
-                    <Property name="display-name" value="1"/>
-                    <Property name="destination" value="CONT-1"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="2"/>
-                    <Property name="destination" value="CONT-2"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="3"/>
-                    <Property name="destination" value="CONT-2"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="4"/>
-                    <Property name="destination" value="CONT-3"/>
-                </PVStructure>
-            </Property>
-            <Property name="containers">
-                <PVStructure>
-                    <Property name="container-id" value="CONT-1"/>
-                    <Property name="display-name" value="A"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="container-id" value="CONT-2"/>
-                    <Property name="display-name" value="B"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="container-id" value="CONT-3"/>
-                    <Property name="display-name" value="C"/>
+                    <Property name="option-type" value="_inline-radio"/>
+                    <Property name="choices">
+                        <Value>1</Value>
+                        <Value>2</Value>
+                    </Property>
+                    <Property name="correct-index" value="0"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>
     </Property>
     <Property name="component3">
         <ConstructionPVs>
-            <Property name="type" value="SCENARIO_IMAGE"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="3"/>
-            <Property name="content" value="test_problem_01.jpeg"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component4">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="4"/>
-            <Property name="text" value="sdf"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component5">
-        <ConstructionPVs>
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="5"/>
+            <Property name="order" value="3"/>
             <Property name="text" value=""/>
         </ConstructionPVs>
     </Property>

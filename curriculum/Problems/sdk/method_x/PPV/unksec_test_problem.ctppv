@@ -44,6 +44,10 @@
                             <Property name="text" value="this is the decimal form"/>
                             <Property name="answer" value="0.4"/>
                         </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="asdf"/>
+                            <Property name="answer" value="0.04"/>
+                        </PVStructure>
                     </Property>
                 </PVStructure>
             </Property>

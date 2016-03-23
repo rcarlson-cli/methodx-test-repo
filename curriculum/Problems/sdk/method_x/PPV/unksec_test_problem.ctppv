@@ -55,9 +55,17 @@
     </Property>
     <Property name="component4">
         <ConstructionPVs>
+            <Property name="type" value="SCENARIO_IMAGE"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="4"/>
+            <Property name="content" value="plotting_points_1.svg"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component5">
+        <ConstructionPVs>
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="4"/>
+            <Property name="order" value="5"/>
             <Property name="text" value=""/>
         </ConstructionPVs>
     </Property>

@@ -15,13 +15,13 @@
             <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="2"/>
-            <Property name="text" value="Here’s a widget {{1}}"/>
+            <Property name="text" value="Hi&lt;br/&gt;{{1}}"/>
             <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_inline-radio"/>
                     <Property name="choices">
-                        <Value>1</Value>
-                        <Value>2</Value>
+                        <Value>a</Value>
+                        <Value>b</Value>
                     </Property>
                     <Property name="correct-index" value="0"/>
                 </PVStructure>
@@ -30,34 +30,9 @@
     </Property>
     <Property name="component3">
         <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="3"/>
-            <Property name="text" value="{{1}}"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="answer" value="4/10"/>
-                    <Property name="answer-checktype" value="_alg-equal-fraction"/>
-                    <Property name="jits">
-                        <PVStructure>
-                            <Property name="text" value="this is the decimal form"/>
-                            <Property name="answer" value="0.4"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="asdf"/>
-                            <Property name="answer" value="0.04"/>
-                        </PVStructure>
-                    </Property>
-                </PVStructure>
-            </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component4">
-        <ConstructionPVs>
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="4"/>
+            <Property name="order" value="3"/>
             <Property name="text" value=""/>
         </ConstructionPVs>
     </Property>

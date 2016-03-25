@@ -24,6 +24,9 @@
                         <Value>2</Value>
                     </Property>
                     <Property name="correct-index" value="0"/>
+                    <Property name="hints">
+                        <Value>Christopher must earn $ &lt;literal&gt;&lt;latex&gt;357.57&lt;/latex&gt;&lt;/literal&gt; in August</Value>
+                    </Property>
                     <Property name="explanations">
                         <Value>first</Value>
                         <Value>second</Value>

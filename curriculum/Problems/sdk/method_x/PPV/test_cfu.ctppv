@@ -7,7 +7,7 @@
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="1"/>
-            <Property name="text" value="This is a sample problem"/>
+            <Property name="text" value="Hello"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
@@ -15,21 +15,23 @@
             <Property name="type" value="METHOD_X_CFU_FIB"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="2"/>
-            <Property name="text" value="Hi&lt;br/&gt;{{1}}"/>
+            <Property name="text" value="Radio Group {{1}}"/>
             <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_external-radio"/>
                     <Property name="choices">
-                        <Value>1</Value>
-                        <Value>2</Value>
+                        <Value>a</Value>
+                        <Value>b</Value>
                     </Property>
                     <Property name="correct-index" value="0"/>
                     <Property name="hints">
-                        <Value>Christopher must earn $ &lt;literal&gt;&lt;latex&gt;357.57&lt;/latex&gt;&lt;/literal&gt; in August</Value>
+                        <Value>Fraction &lt;latex&gt;\frac{1}{2}&lt;/latex&gt;</Value>
+                        <Value>asdf</Value>
+                        <Value>asdf</Value>
                     </Property>
                     <Property name="explanations">
-                        <Value>first</Value>
-                        <Value>second</Value>
+                        <Value>asdf</Value>
+                        <Value>bsdf</Value>
                     </Property>
                 </PVStructure>
             </Property>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Section name="A Second Section" type="NON_MASTERY" locale="en_US" lesson="a_second_section">
+    <ProgressTracker type="PROBLEM_METER"/>
+
+    <ProblemSetWrapper selector="ORDERED">
+        <ToolLayout><![CDATA[{"columns": [{"id": "MethodXMediaScenarioTool", "weight": "50%"}, {"id": "MethodXFIBTool", "weight": "50%"}]}]]></ToolLayout>
+        
+        <ToolSpec tre_id="MethodXMediaScenarioTool" display_name="Scenario" type="methodXTool1" subtype="" tool_implementation_class="ctp-question-and-answer-tool">
+            <SetOptions/>
+        </ToolSpec>
+        
+        
+        <ToolSpec tre_id="MethodXFIBTool" display_name="Questions" type="methodXTool2" tool_implementation_class="ctp-question-and-answer-tool">
+            <SetOptions/>
+        </ToolSpec>
+        
+
+        <ProblemSet>
+           <SelectionAlgo type="REQUIRED" impl_class="Ordered"/>
+           <ExitCriterion impl_class="cl.services.ct.sectiondata.knowledgetracing.TotalProblemCountCriterion">
+               <AttValue attribute="count" value="1"/>
+           </ExitCriterion>
+           
+           <Problem problem_id="a_second_section_test_problem"/>
+           
+        </ProblemSet>
+
+    </ProblemSetWrapper>
+</Section>

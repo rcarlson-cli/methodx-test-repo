@@ -7,285 +7,35 @@
             <Property name="type" value="TITLE"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="1"/>
-            <Property name="text" value="Comparing the MADs of Two Different Data Sets"/>
+            <Property name="text" value="This is a Title"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
         <ConstructionPVs>
             <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
+            <Property name="tutor" value="FIB"/>
             <Property name="order" value="2"/>
-            <Property name="text" value="Seth claims that all &lt;latex&gt;27&lt;/latex&gt; students in his class have seen the latest blockbuster movie &quot;at least a billion times.&quot; He surveys his classmates to see exactly how many times they've each seen the movie."/>
+            <Property name="text" value="This is some work"/>
         </ConstructionPVs>
     </Property>
     <Property name="component3">
         <ConstructionPVs>
-            <Property name="type" value="Instruction"/>
-            <Property name="tutor" value="Scenario"/>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
             <Property name="order" value="3"/>
-            <Property name="text" value="Use the dot plots and summary statistics to compare the distributions of the number of times the movie has been seen."/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component4">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="4"/>
-            <Property name="text" value="The number of times each person has seen the movie is shown in the dot plot. The mean number of times per student is &lt;latex&gt;4&lt;/latex&gt;. The sum of the absolute deviations from the mean is &lt;latex&gt;40&lt;/latex&gt;."/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component5">
-        <ConstructionPVs>
-            <Property name="type" value="SCENARIO_IMAGE"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="5"/>
-            <Property name="content" value="test_problem_01.png"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component6">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="6"/>
-            <Property name="text" value="The movie is so popular that Seth's school plans several special viewings. Everyone that Gloria surveyed plans to attend all the school sponsored viewings. The responses after the viewings are shown."/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component7">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="7"/>
-            <Property name="text" value="There are &lt;latex&gt;27&lt;/latex&gt; students in the second data set. The mean number of times per student is now &lt;latex&gt;6&lt;/latex&gt;. The sum of the absolute deviations from the mean is &lt;latex&gt;40&lt;/latex&gt;."/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component8">
-        <ConstructionPVs>
-            <Property name="type" value="SCENARIO_IMAGE"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="8"/>
-            <Property name="content" value="test_problem_02.png"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component9">
-        <ConstructionPVs>
-            <Property name="type" value="Instruction"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="9"/>
-            <Property name="text" value="Examine the two dots plots. Drag each characteristic into the appropriate container to indicate what is the same and what is different about the two displays."/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component10">
-        <ConstructionPVs>
-            <Property name="type" value="SORTING_TASK"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="10"/>
-            <Property name="accept-multiple-items" value="True"/>
-            <Property name="is-conjoined" value="False"/>
-            <Property name="is-items-on-top" value="True"/>
-            <Property name="items">
-                <PVStructure>
-                    <Property name="display-name" value="shape of the data"/>
-                    <Property name="destination" value="CONT-1"/>
-                    <Property name="hints">
-                        <Value>Compare the shape of the data for both dot plots.  Are the shapes similar or different?</Value>
-                        <Value>Examine the dot plots in the worked example. Do they have similar or different peaks, clusters, gaps, and skew?</Value>
-                        <Value>The shape of the data is &lt;literal&gt;the same&lt;/literal&gt; for these two data sets. </Value>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="maximum"/>
-                    <Property name="destination" value="CONT-2"/>
-                    <Property name="hints">
-                        <Value>Compare the maximum of the data for both data sets.  Are the maximums the same or different?</Value>
-                        <Value>Examine the dot plots and identify the maximum values.</Value>
-                        <Value>The maximums, &lt;latex&gt;7&lt;/latex&gt; and &lt;latex&gt;9&lt;/latex&gt;, are &lt;literal&gt;different&lt;/literal&gt;.</Value>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="minimum"/>
-                    <Property name="destination" value="CONT-2"/>
-                    <Property name="hints">
-                        <Value>Compare the minimum of the data for both data sets.  Are the minimums the same or different?</Value>
-                        <Value>Examine the dot plots and identify the minimum values.</Value>
-                        <Value>The minimums, &lt;latex&gt;0&lt;/latex&gt; and &lt;latex&gt;2&lt;/latex&gt;, are &lt;literal&gt;different&lt;/literal&gt;.</Value>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="range"/>
-                    <Property name="destination" value="CONT-1"/>
-                    <Property name="hints">
-                        <Value>Compare the range of the data for both data sets.  Are the ranges similar or different?</Value>
-                        <Value>Calculate the ranges of the data sets by subtracting the smallest value from the largest value for each.</Value>
-                        <Value>&lt;latex&gt;7-0=7&lt;/latex&gt;&lt;br/&gt;
-&lt;latex&gt;9-2=7&lt;/latex&gt;&lt;br/&gt;
-The ranges are &lt;literal&gt;the same&lt;/literal&gt;.
-</Value>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="median"/>
-                    <Property name="destination" value="CONT-2"/>
-                    <Property name="hints">
-                        <Value>Compare the medians for both data sets.  Are the medians the same or different?</Value>
-                        <Value>Examine the dot plots and determine the medians. Remember that the median is the middle value of an ordered data set. </Value>
-                        <Value>The medians, &lt;latex&gt;4&lt;/latex&gt; and &lt;latex&gt;6&lt;/latex&gt;, are &lt;literal&gt;different&lt;/literal&gt;.</Value>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="mode"/>
-                    <Property name="destination" value="CONT-2"/>
-                    <Property name="hints">
-                        <Value>Compare the modes for both data sets.  Are the modes the same or different?</Value>
-                        <Value>Examine the dot plots and determine the modes. Remember that the mode is the value that occurs most often. </Value>
-                        <Value>The modes, &lt;latex&gt;5&lt;/latex&gt; and &lt;latex&gt;7&lt;/latex&gt;, are &lt;literal&gt;different&lt;/literal&gt;.</Value>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="mean"/>
-                    <Property name="destination" value="CONT-2"/>
-                    <Property name="hints">
-                        <Value>Compare the means for both data sets.  Are the means the same or different?</Value>
-                        <Value>Re-read the information about the data sets.  The means are provided.</Value>
-                        <Value>The means, &lt;latex&gt;4&lt;/latex&gt; and &lt;latex&gt;6&lt;/latex&gt;, are &lt;literal&gt;different&lt;/literal&gt;.</Value>
-                    </Property>
-                </PVStructure>
-            </Property>
-            <Property name="containers">
-                <PVStructure>
-                    <Property name="container-id" value="CONT-1"/>
-                    <Property name="display-name" value="The Same"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="container-id" value="CONT-2"/>
-                    <Property name="display-name" value="Different"/>
-                </PVStructure>
-            </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component11">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="11"/>
-            <Property name="text" value="Enter the sum of the absolute deviations from the mean for Seth’s survey of the class: {{1}}"/>
+            <Property name="text" value="Inputs: &lt;br/&gt;&lt;latex&gt;\{&lt;/latex&gt;{{1}}, {{2}}&lt;latex&gt;\}&lt;/latex&gt;"/>
             <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
-                    <Property name="answer" value="40"/>
+                    <Property name="answer" value="1"/>
                     <Property name="answer-checktype" value="_alg-equal"/>
-                    <Property name="hints">
-                        <Value>Use the information about the Seth’s survey to enter the sum of the absolute deviations from the mean. </Value>
-                        <Value>The sum of the absolute deviations from the mean is provided in the information about Seth’s survey.</Value>
-                        <Value>The sum of the absolute deviations from the mean is &lt;literal&gt;&lt;latex&gt;40&lt;/latex&gt;&lt;/literal&gt;.</Value>
-                    </Property>
                 </PVStructure>
             </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component12">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="12"/>
-            <Property name="text" value="Enter the MAD for Seth’s data: {{1}}"/>
-            <Property name="option1">
+            <Property name="option2">
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
-                    <Property name="answer" value="1.4815"/>
+                    <Property name="answer" value="2"/>
                     <Property name="answer-checktype" value="_alg-equal"/>
-                    <Property name="hints">
-                        <Value>Enter the mean absolute deviation for Seth’s survey.</Value>
-                        <Value>The mean absolute deviation is calculated by dividing the sum of the absolute deviations by the number of data values.</Value>
-                        <Value>The sum of the absolute deviations is &lt;latex&gt;40&lt;/latex&gt;, and there are &lt;latex&gt;27&lt;/latex&gt; data values.  Therefore, the mean absolute deviation is &lt;latex&gt;\frac{40}{27}&lt;/latex&gt;, or &lt;literal&gt;&lt;latex&gt;1.4815&lt;/latex&gt;&lt;/literal&gt;.</Value>
-                    </Property>
-                </PVStructure>
-            </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component13">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="13"/>
-            <Property name="text" value="Enter the sum of the absolute deviations from the mean for Gloria’s survey of the class: {{1}}"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="answer" value="40"/>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                    <Property name="hints">
-                        <Value>Use the information about the Gloria’s survey to enter the sum of the absolute deviations from the mean. </Value>
-                        <Value>The sum of the absolute deviations from the mean is provided in the information about Gloria’s survey.</Value>
-                        <Value>The sum of the absolute deviations from the mean is &lt;literal&gt;&lt;latex&gt;40&lt;/latex&gt;&lt;/literal&gt;.</Value>
-                    </Property>
-                </PVStructure>
-            </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component14">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="14"/>
-            <Property name="text" value="Enter the MAD for Gloria’s data: {{1}}"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="answer" value="1.4815"/>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                    <Property name="hints">
-                        <Value>Enter the mean absolute deviation for Gloria’s survey.</Value>
-                        <Value>The mean absolute deviation is calculated by dividing the sum of the absolute deviations by the number of data values.</Value>
-                        <Value>The sum of the absolute deviations is &lt;latex&gt;40&lt;/latex&gt;, and there are &lt;latex&gt;27&lt;/latex&gt; data values.  Therefore, the mean absolute deviation is &lt;latex&gt;\frac{40}{27}&lt;/latex&gt;, or &lt;literal&gt;&lt;latex&gt;1.4815&lt;/latex&gt;&lt;/literal&gt;.</Value>
-                    </Property>
-                </PVStructure>
-            </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component15">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="15"/>
-            <Property name="text" value="The MAD for Seth’s data is {{1}} the MAD for Gloria’s data."/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_dropdown"/>
-                    <Property name="choices">
-                        <Value>greater than</Value>
-                        <Value>equal to</Value>
-                        <Value>less than</Value>
-                    </Property>
-                    <Property name="correct-index" value="1"/>
-                    <Property name="hints">
-                        <Value>Select the word that correctly compares the MAD for Seth's data and the MAD for Gloria's data.</Value>
-                        <Value>If you haven't done so already, calculate the MAD for Seth's data and for Gloria's data. Compare these two values.</Value>
-                        <Value>The MAD for Seth's data is &lt;literal&gt;equal to&lt;/literal&gt; the MAD for Gloria's data.</Value>
-                    </Property>
-                </PVStructure>
-            </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component16">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="16"/>
-            <Property name="text" value="Choose the statement that best describes the distributions of the data in the two plots:{{1}}"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_external-radio"/>
-                    <Property name="choices">
-                        <Value>The data in Seth's plot is more spread out than the data in Gloria's plot.</Value>
-                        <Value>The data in both plots is equally spread.</Value>
-                        <Value>The data in Gloria's plot is more spread out than the data in Seth's plot.</Value>
-                    </Property>
-                    <Property name="correct-index" value="1"/>
-                    <Property name="hints">
-                        <Value>Choose the statement that summarizes that we know about the data based on the MADs.</Value>
-                        <Value>The MAD of Seth's data equals the MAD of Gloria's data.  What does this tell us about the variability, or spread, of the data?</Value>
-                        <Value>The equal MADs indicates that &lt;literal&gt;the data in both plots is equally spread&lt;/literal&gt;.</Value>
-                    </Property>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

@@ -23,7 +23,9 @@
                         <Value>1</Value>
                         <Value>2</Value>
                     </Property>
-                    <Property name="correct-index" value="0"/>
+                    <Property name="correct-indices">
+                        <Value>0</Value>
+                    </Property>
                     <Property name="explanations">
                         <Value>correct</Value>
                         <Value>wrong</Value>

@@ -4,10 +4,10 @@
     <Property name="lms-id" value="test_cfu"/>
     <Property name="component1">
         <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
+            <Property name="type" value="TITLE"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="1"/>
-            <Property name="text" value="Hello"/>
+            <Property name="text" value="This is a Title"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
@@ -15,23 +15,18 @@
             <Property name="type" value="METHOD_X_CFU_FIB"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="2"/>
-            <Property name="text" value="Radio Group {{1}}"/>
+            <Property name="text" value="HI there&lt;br/&gt;{{1}}"/>
             <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_external-radio"/>
                     <Property name="choices">
-                        <Value>a</Value>
-                        <Value>b</Value>
+                        <Value>1</Value>
+                        <Value>2</Value>
                     </Property>
                     <Property name="correct-index" value="0"/>
-                    <Property name="hints">
-                        <Value>Fraction &lt;latex&gt;\frac{1}{2}&lt;/latex&gt;</Value>
-                        <Value>asdf</Value>
-                        <Value>asdf</Value>
-                    </Property>
                     <Property name="explanations">
-                        <Value>asdf</Value>
-                        <Value>bsdf</Value>
+                        <Value>correct</Value>
+                        <Value>wrong</Value>
                     </Property>
                 </PVStructure>
             </Property>

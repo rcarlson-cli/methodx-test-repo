@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Section name="test_cfu" type="NON_MASTERY" problem_weight="PROGRESSIVE" locale="en_US" lesson="test_cfu">
+<Section name="test_cfu" type="CFU" problem_weight="PROGRESSIVE" locale="en_US" lesson="test_cfu">
     <ProgressTracker type="PROBLEM_METER"/>
 
     <ProblemSetWrapper selector="ORDERED">

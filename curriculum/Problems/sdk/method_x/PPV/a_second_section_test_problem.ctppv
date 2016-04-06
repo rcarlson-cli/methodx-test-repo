@@ -7,211 +7,57 @@
             <Property name="type" value="TITLE"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="1"/>
-            <Property name="text" value="The Constant of Proportionality"/>
+            <Property name="text" value="A Title"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
         <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
+            <Property name="type" value="METHOD_X_MATH_FIB"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="2"/>
-            <Property name="text" value="Lenora is downloading songs from a music website. Every &lt;latex&gt;9&lt;/latex&gt; minutes she can download &lt;latex&gt;2&lt;/latex&gt; songs."/>
+            <Property name="text" value="x=1+2+3"/>
+            <Property name="annotation" value="Simplify the equation"/>
+            <Property name="annotation-side" value="right"/>
         </ConstructionPVs>
     </Property>
     <Property name="component3">
         <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
+            <Property name="type" value="METHOD_X_MATH_FIB"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="3"/>
-            <Property name="text" value="The ratio of the number of songs downloaded, &lt;i&gt;n&lt;/i&gt;, to the time in minutes, &lt;i&gt;m&lt;/i&gt;, is equal to &lt;latex&gt;\frac{2}{9}&lt;/latex&gt;. You can represent these equivalent ratios as a proportion with the two variable quantities on one side and the ratio between the two quantities on the other side of the equation."/>
+            <Property name="text" value="=3+3"/>
+            <Property name="annotation" value="Keep simplifying!!"/>
+            <Property name="annotation-side" value="right"/>
         </ConstructionPVs>
     </Property>
     <Property name="component4">
         <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
+            <Property name="type" value="METHOD_X_MATH_FIB"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="4"/>
-            <Property name="text" value="If Lenora spends &lt;latex&gt;36&lt;/latex&gt; minutes downloading music, how many songs can she download?"/>
+            <Property name="text" value="=6"/>
+            <Property name="annotation" value="All done."/>
+            <Property name="annotation-side" value="right"/>
         </ConstructionPVs>
     </Property>
     <Property name="component5">
         <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="Scenario"/>
+            <Property name="type" value="Instruction"/>
+            <Property name="tutor" value="FIB"/>
             <Property name="order" value="5"/>
-            <Property name="text" value="\frac{n}{m}=\frac{2}{9}"/>
-            <Property name="annotation" value="Write a proportion for the relationship between the number of songs downloaded and the time in minutes."/>
-            <Property name="annotation-side" value="right"/>
+            <Property name="text" value="Some Instructions"/>
         </ConstructionPVs>
     </Property>
     <Property name="component6">
         <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="6"/>
-            <Property name="text" value="\frac{n}{36}=\frac{2}{9}"/>
-            <Property name="annotation" value="Substitute the known quantity, &lt;latex&gt;36&lt;/latex&gt;minutes, into the proportion."/>
-            <Property name="annotation-side" value="right"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component7">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="7"/>
-            <Property name="text" value="\frac{n}{36}=\frac{2}{9}"/>
-            <Property name="annotation" value="Solve for the unknown quantity."/>
-            <Property name="annotation-side" value="right"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component8">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="8"/>
-            <Property name="text" value="9n=2\times{}36"/>
-            <Property name="annotation" value=""/>
-            <Property name="annotation-side" value="right"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component9">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="9"/>
-            <Property name="text" value="\frac{9n}{9}=\frac{72}{9}"/>
-            <Property name="annotation" value=""/>
-            <Property name="annotation-side" value="right"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component10">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="10"/>
-            <Property name="text" value="n=8"/>
-            <Property name="annotation" value=""/>
-            <Property name="annotation-side" value="right"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component11">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="11"/>
-            <Property name="text" value="Lenora can download &lt;latex&gt;8&lt;/latex&gt; songs in &lt;latex&gt;36&lt;/latex&gt; minutes."/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component12">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="12"/>
-            <Property name="text" value="If Lenora wants to download &lt;latex&gt;10&lt;/latex&gt; songs, how many minutes will she spend downloading?"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component13">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="13"/>
-            <Property name="text" value="\frac{m}{n}=\frac{9}{2}"/>
-            <Property name="annotation" value="Write a proportion for the relationship between the number of songs downloaded and the time in minutes."/>
-            <Property name="annotation-side" value="right"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component14">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="14"/>
-            <Property name="text" value="\frac{m}{10}=\frac{9}{2}"/>
-            <Property name="annotation" value="Substitute the known quantity, &lt;latex&gt;10&lt;/latex&gt; songs, into the proportion."/>
-            <Property name="annotation-side" value="right"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component15">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="15"/>
-            <Property name="text" value="\frac{m}{10}=\frac{9}{2}"/>
-            <Property name="annotation" value="Solve for the unknown quantity."/>
-            <Property name="annotation-side" value="right"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component16">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="16"/>
-            <Property name="text" value="2m=9\times{}10"/>
-            <Property name="annotation" value=""/>
-            <Property name="annotation-side" value="right"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component17">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="17"/>
-            <Property name="text" value="\frac{2m}{2}=\frac{90}{2}"/>
-            <Property name="annotation" value=""/>
-            <Property name="annotation-side" value="right"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component18">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="18"/>
-            <Property name="text" value="m=45"/>
-            <Property name="annotation" value=""/>
-            <Property name="annotation-side" value="right"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component19">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="19"/>
-            <Property name="text" value="Lenora will spend &lt;latex&gt;45&lt;/latex&gt; minutes downloading &lt;latex&gt;10&lt;/latex&gt; songs."/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component20">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="20"/>
-            <Property name="text" value="In a proportional relationship, the constant ratio between the two quantities is called the constant of proportionality."/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component21">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="21"/>
-            <Property name="text" value="In this scenario, the constant of proportionality of the time in minutes to the number of songs downloaded is &lt;latex&gt;\frac{9}{2}&lt;/latex&gt;. The constant of proportionality of the number of songs downloaded to the time in minutes is &lt;latex&gt;\frac{2}{9}&lt;/latex&gt;."/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component22">
-        <ConstructionPVs>
-            <Property name="type" value="Instruction"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="22"/>
-            <Property name="text" value="Examine the worked example and then answer each question."/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component23">
-        <ConstructionPVs>
             <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
-            <Property name="order" value="23"/>
-            <Property name="text" value="{{1}}"/>
+            <Property name="order" value="6"/>
+            <Property name="text" value="Textbox: {{1}}"/>
             <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
-                    <Property name="answer" value="1"/>
+                    <Property name="answer" value="2"/>
                     <Property name="answer-checktype" value="_alg-equal"/>
                 </PVStructure>
             </Property>

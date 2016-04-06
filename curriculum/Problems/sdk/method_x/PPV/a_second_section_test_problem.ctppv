@@ -15,7 +15,7 @@
             <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="2"/>
-            <Property name="text" value="&lt;latex&gt;{1}^{2}&lt;/latex&gt; &amp;#123{{1}}&amp;#125"/>
+            <Property name="text" value="&lt;latex&gt;{1}^{2}&lt;/latex&gt; {&amp;#123{{1}}&amp;#125}"/>
             <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>

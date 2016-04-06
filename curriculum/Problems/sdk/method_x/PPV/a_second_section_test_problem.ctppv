@@ -17,7 +17,7 @@
             <Property name="order" value="2"/>
             <Property name="text" value="x=1+2+3"/>
             <Property name="annotation" value="Simplify the equation"/>
-            <Property name="annotation-side" value="right"/>
+            <Property name="annotation-side" value="left"/>
         </ConstructionPVs>
     </Property>
     <Property name="component3">
@@ -27,7 +27,7 @@
             <Property name="order" value="3"/>
             <Property name="text" value="=3+3"/>
             <Property name="annotation" value="Keep simplifying!!"/>
-            <Property name="annotation-side" value="right"/>
+            <Property name="annotation-side" value="left"/>
         </ConstructionPVs>
     </Property>
     <Property name="component4">
@@ -37,7 +37,7 @@
             <Property name="order" value="4"/>
             <Property name="text" value="=6"/>
             <Property name="annotation" value="All done."/>
-            <Property name="annotation-side" value="right"/>
+            <Property name="annotation-side" value="left"/>
         </ConstructionPVs>
     </Property>
     <Property name="component5">

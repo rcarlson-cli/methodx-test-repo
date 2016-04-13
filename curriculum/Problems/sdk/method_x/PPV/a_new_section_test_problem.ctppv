@@ -44,8 +44,9 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>asdf</Value>
+                        <Value>asdf 123</Value>
                     </Property>
+                    <Property name="answer-checktype" value="_alg-equal"/>
                     <Property name="hints">
                         <Value>first hint</Value>
                     </Property>

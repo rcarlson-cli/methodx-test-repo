@@ -23,7 +23,7 @@
             <Property name="type" value="SCENARIO_IMAGE"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="3"/>
-            <Property name="content" value="test_problem_01.jpeg"/>
+            <Property name="content" value="foo.png"/>
         </ConstructionPVs>
     </Property>
     <Property name="component4">
@@ -39,7 +39,7 @@
             <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="5"/>
-            <Property name="text" value="The ones place is always {{1}} of the decimal point.&lt;br/&gt; &lt;br/&gt; &lt;br/&gt;The tenths place is always {{2}} of the decimal point.&lt;br/&gt; &lt;br/&gt; &lt;br/&gt;The tens place is always {{3}} of the decimal point.&lt;br/&gt; &lt;br/&gt;In Step 2 of the worked example, &lt;latex&gt;13&lt;/latex&gt; tenths was regrouped as {{4}} and {{5}}.&lt;br/&gt;"/>
+            <Property name="text" value="The ones place is always {{1}} of the decimal point."/>
             <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_dropdown"/>
@@ -52,12 +52,20 @@
                     </Property>
                 </PVStructure>
             </Property>
-            <Property name="option2">
+        </ConstructionPVs>
+    </Property>
+    <Property name="component6">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="6"/>
+            <Property name="text" value="The tenths place is always {{1}} of the decimal point."/>
+            <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_dropdown"/>
                     <Property name="choices">
-                        <Value>asdf</Value>
-                        <Value>asdfasdf</Value>
+                        <Value>a</Value>
+                        <Value>b</Value>
                     </Property>
                     <Property name="correct-indices">
                         <Value>0</Value>
@@ -67,12 +75,20 @@
                     </Property>
                 </PVStructure>
             </Property>
-            <Property name="option3">
+        </ConstructionPVs>
+    </Property>
+    <Property name="component7">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="7"/>
+            <Property name="text" value="The tens place is always {{1}} of the decimal point."/>
+            <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_dropdown"/>
                     <Property name="choices">
-                        <Value>asdf</Value>
-                        <Value>asdfasdf</Value>
+                        <Value>c</Value>
+                        <Value>d</Value>
                     </Property>
                     <Property name="correct-indices">
                         <Value>0</Value>
@@ -82,7 +98,15 @@
                     </Property>
                 </PVStructure>
             </Property>
-            <Property name="option4">
+        </ConstructionPVs>
+    </Property>
+    <Property name="component8">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="8"/>
+            <Property name="text" value="In Step 2 of the worked example, &lt;latex&gt;13&lt;/latex&gt; tenths was regrouped as {{1}} and {{2}}."/>
+            <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_external-radio"/>
                     <Property name="choices">
@@ -96,12 +120,12 @@
                     </Property>
                 </PVStructure>
             </Property>
-            <Property name="option5">
+            <Property name="option2">
                 <PVStructure>
                     <Property name="option-type" value="_inline-radio"/>
                     <Property name="choices">
-                        <Value>1</Value>
-                        <Value>2</Value>
+                        <Value>4</Value>
+                        <Value>5</Value>
                     </Property>
                     <Property name="correct-indices">
                         <Value>0</Value>

@@ -28,7 +28,7 @@
                 <PVStructure>
                     <Property name="option-type" value="_dropdown"/>
                     <Property name="choices">
-                        <Value>red</Value>
+                        <Value>red1</Value>
                         <Value>green</Value>
                         <Value>blue</Value>
                     </Property>

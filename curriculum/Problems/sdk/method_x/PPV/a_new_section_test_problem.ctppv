@@ -122,7 +122,7 @@
             </Property>
             <Property name="option2">
                 <PVStructure>
-                    <Property name="option-type" value="_inline-radio"/>
+                    <Property name="option-type" value="_external-radio"/>
                     <Property name="choices">
                         <Value>4</Value>
                         <Value>5</Value>

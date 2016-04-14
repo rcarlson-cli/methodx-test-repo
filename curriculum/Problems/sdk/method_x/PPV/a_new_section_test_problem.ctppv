@@ -39,28 +39,20 @@
             <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="5"/>
-            <Property name="text" value="Asdf {{1}}"/>
+            <Property name="text" value="The ones place is always {{1}} of the decimal point.&lt;br/&gt; &lt;br/&gt; &lt;br/&gt;The tenths place is always {{2}} of the decimal point.&lt;br/&gt; &lt;br/&gt; &lt;br/&gt;The tens place is always {{3}} of the decimal point.&lt;br/&gt; &lt;br/&gt;In Step 2 of the worked example, &lt;latex&gt;13&lt;/latex&gt; tenths was regrouped as {{4}} and {{5}}.&lt;br/&gt;"/>
             <Property name="option1">
                 <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="all answers">
-                        <Value>asdf 123</Value>
+                    <Property name="option-type" value="_dropdown"/>
+                    <Property name="choices">
+                        <Value>&lt;latex&gt;\frac{1}{2}&lt;/latex&gt;</Value>
+                        <Value>&lt;latex&gt;\frac{2}{3}&lt;/latex&gt;</Value>
                     </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                    <Property name="hints">
-                        <Value>first hint</Value>
+                    <Property name="correct-indices">
+                        <Value>0</Value>
                     </Property>
                 </PVStructure>
             </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component6">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="6"/>
-            <Property name="text" value="{{1}}"/>
-            <Property name="option1">
+            <Property name="option2">
                 <PVStructure>
                     <Property name="option-type" value="_dropdown"/>
                     <Property name="choices">
@@ -75,41 +67,54 @@
                     </Property>
                 </PVStructure>
             </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component7">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="7"/>
-            <Property name="text" value="1+\class{widget 1}{}+\class{widget 2}{}"/>
-            <Property name="option1">
+            <Property name="option3">
                 <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="all answers">
-                        <Value>1</Value>
-                        <Value>2</Value>
-                    </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                    <Property name="hints">
+                    <Property name="option-type" value="_dropdown"/>
+                    <Property name="choices">
                         <Value>asdf</Value>
-                        <Value>qwerty</Value>
-                        <Value>zxcvb</Value>
+                        <Value>asdfasdf</Value>
+                    </Property>
+                    <Property name="correct-indices">
+                        <Value>0</Value>
+                    </Property>
+                    <Property name="hints">
+                        <Value>first hint</Value>
                     </Property>
                 </PVStructure>
             </Property>
-            <Property name="option2">
+            <Property name="option4">
                 <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="all answers">
+                    <Property name="option-type" value="_external-radio"/>
+                    <Property name="choices">
+                        <Value>1</Value>
+                        <Value>2</Value>
+                        <Value>3</Value>
+                    </Property>
+                    <Property name="correct-indices">
+                        <Value>0</Value>
+                        <Value>1</Value>
+                    </Property>
+                </PVStructure>
+            </Property>
+            <Property name="option5">
+                <PVStructure>
+                    <Property name="option-type" value="_inline-radio"/>
+                    <Property name="choices">
                         <Value>1</Value>
                         <Value>2</Value>
                     </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                    <Property name="hints">
-                        <Value>asdf</Value>
-                        <Value>qwerty</Value>
-                        <Value>zxcvb</Value>
+                    <Property name="correct-indices">
+                        <Value>0</Value>
+                    </Property>
+                    <Property name="jits">
+                        <PVStructure>
+                            <Property name="text" value="asdf"/>
+                            <Property name="answer" value="1"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="qwerty"/>
+                            <Property name="answer" value="2"/>
+                        </PVStructure>
                     </Property>
                 </PVStructure>
             </Property>

@@ -39,6 +39,14 @@
             <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="5"/>
+            <Property name="text" value="Hello there."/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component6">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="6"/>
             <Property name="text" value="The ones place is always {{1}} of the decimal point."/>
             <Property name="option1">
                 <PVStructure>
@@ -54,11 +62,11 @@
             </Property>
         </ConstructionPVs>
     </Property>
-    <Property name="component6">
+    <Property name="component7">
         <ConstructionPVs>
             <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
-            <Property name="order" value="6"/>
+            <Property name="order" value="7"/>
             <Property name="text" value="The tenths place is always {{1}} of the decimal point."/>
             <Property name="option1">
                 <PVStructure>
@@ -77,11 +85,11 @@
             </Property>
         </ConstructionPVs>
     </Property>
-    <Property name="component7">
+    <Property name="component8">
         <ConstructionPVs>
             <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
-            <Property name="order" value="7"/>
+            <Property name="order" value="8"/>
             <Property name="text" value="The tens place is always {{1}} of the decimal point."/>
             <Property name="option1">
                 <PVStructure>
@@ -100,11 +108,11 @@
             </Property>
         </ConstructionPVs>
     </Property>
-    <Property name="component8">
+    <Property name="component9">
         <ConstructionPVs>
             <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
-            <Property name="order" value="8"/>
+            <Property name="order" value="9"/>
             <Property name="text" value="In Step 2 of the worked example, &lt;latex&gt;13&lt;/latex&gt; tenths was regrouped as {{1}} and {{2}}."/>
             <Property name="option1">
                 <PVStructure>

@@ -134,9 +134,9 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>1</Value>
+                        <Value>11:03</Value>
                     </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
+                    <Property name="answer-checktype" value="_string-exact"/>
                 </PVStructure>
             </Property>
             <Property name="option2">
@@ -168,9 +168,9 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>1</Value>
+                        <Value>11:03</Value>
                     </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
+                    <Property name="answer-checktype" value="_string-exact"/>
                 </PVStructure>
             </Property>
             <Property name="option2">

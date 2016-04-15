@@ -30,19 +30,33 @@
                     <Property name="choices">
                         <Value>red</Value>
                         <Value>green</Value>
+                        <Value>orange</Value>
                         <Value>blue</Value>
+                        <Value>yellow</Value>
                     </Property>
                     <Property name="correct-indices">
                         <Value>0</Value>
                     </Property>
                     <Property name="jits">
                         <PVStructure>
+                            <Property name="text" value="orange is wrong"/>
+                            <Property name="answer" value="orange"/>
+                        </PVStructure>
+                        <PVStructure>
                             <Property name="text" value="green is wrong"/>
                             <Property name="answer" value="green"/>
                         </PVStructure>
                         <PVStructure>
                             <Property name="text" value="you are wrong"/>
-                            <Property name="answer" value="*"/>
+                            <Property name="answer" value="red"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="you are wrong"/>
+                            <Property name="answer" value="blue"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="you are wrong"/>
+                            <Property name="answer" value="yellow"/>
                         </PVStructure>
                     </Property>
                 </PVStructure>

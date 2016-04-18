@@ -39,11 +39,11 @@
             <Property name="containers">
                 <PVStructure>
                     <Property name="container-id" value="CONT-1"/>
-                    <Property name="display-name" value="A"/>
+                    <Property name="display-name" value="A    and    B"/>
                 </PVStructure>
                 <PVStructure>
                     <Property name="container-id" value="CONT-2"/>
-                    <Property name="display-name" value="B"/>
+                    <Property name="display-name" value="C    and    D"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

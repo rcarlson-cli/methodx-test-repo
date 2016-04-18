@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Section name="A New Section" type="NON_MASTERY" problem_weight="PROGRESSIVE" locale="en_US" lesson="a_new_section">
+<Section name="A New Section" type="NON_MASTERY" problem_weight="FLAT" locale="en_US" lesson="MSM-box-whisker">
     <ProgressTracker type="PROBLEM_METER"/>
 
     <ProblemSetWrapper selector="ORDERED">
@@ -21,7 +21,7 @@
                <AttValue attribute="count" value="1"/>
            </ExitCriterion>
            
-           <Problem problem_id="a_new_section_master_1"/>
+           <Problem problem_id="a_new_section_test_prob"/>
            
         </ProblemSet>
 

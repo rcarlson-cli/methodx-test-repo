@@ -28,11 +28,11 @@
             <Property name="is-items-on-top" value="True"/>
             <Property name="items">
                 <PVStructure>
-                    <Property name="display-name" value="20  -  5x3  +  4/4"/>
+                    <Property name="display-name" value="20    -    5x3    +    4/4"/>
                     <Property name="destination" value="CONT-1"/>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="display-name" value="20-5  x  3+4  /  4"/>
+                    <Property name="display-name" value="20-5    x    3+4    /    4"/>
                     <Property name="destination" value="CONT-2"/>
                 </PVStructure>
             </Property>

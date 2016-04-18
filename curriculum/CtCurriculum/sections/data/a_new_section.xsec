@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Section name="A New Section" type="NON_MASTERY" problem_weight="FLAT" locale="en_US" lesson="MSM-box-whisker">
+<Section name="A New Section" type="NON_MASTERY" problem_weight="FLAT" locale="en_US" lesson="a_new_section">
     <ProgressTracker type="PROBLEM_METER"/>
 
     <ProblemSetWrapper selector="ORDERED">

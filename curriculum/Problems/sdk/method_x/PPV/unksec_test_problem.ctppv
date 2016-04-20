@@ -1,51 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
     <Property name="name" value="utp"/>
-    <Property name="lms-id" value="test_problem"/>
+    <Property name="lms-id" value="unksec_test_problem"/>
     <Property name="component1">
         <ConstructionPVs>
             <Property name="type" value="TITLE"/>
-            <Property name="tutor" value="FIB"/>
+            <Property name="tutor" value="Scenario"/>
             <Property name="order" value="1"/>
-            <Property name="text" value="Exploring the Distributive Property"/>
+            <Property name="text" value="Variables on Both Sides"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
         <ConstructionPVs>
-            <Property name="type" value="Instruction"/>
-            <Property name="tutor" value="FIB"/>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
             <Property name="order" value="2"/>
-            <Property name="text" value="Complete each number sentence."/>
+            <Property name="text" value="Use this Explore Tool to investigate equations and solutions."/>
         </ConstructionPVs>
     </Property>
     <Property name="component3">
         <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
             <Property name="order" value="3"/>
-            <Property name="text" value="hi{{1}}"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_inline-radio"/>
-                    <Property name="choices">
-                        <Value>1</Value>
-                        <Value>2</Value>
-                    </Property>
-                    <Property name="correct-indices">
-                        <Value>0</Value>
-                    </Property>
-                    <Property name="jits">
-                        <PVStructure>
-                            <Property name="text" value="wild"/>
-                            <Property name="answer" value="1"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="wild"/>
-                            <Property name="answer" value="2"/>
-                        </PVStructure>
-                    </Property>
-                </PVStructure>
-            </Property>
+            <Property name="text" value="To use this balance tool, first enter an equation. Then determine a value for the unknown variable that establishes balance."/>
         </ConstructionPVs>
     </Property>
     <Property name="component4">
@@ -53,7 +31,243 @@
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="4"/>
-            <Property name="text" value=""/>
+            <Property name="text" value="Investigate different equations. How can you get the equation to balance?"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component5">
+        <ConstructionPVs>
+            <Property name="type" value="SCENARIO_IMAGE"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="5"/>
+            <Property name="content" value="test_problem_01.png"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component6">
+        <ConstructionPVs>
+            <Property name="type" value="Instruction"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="6"/>
+            <Property name="text" value="Enter the equation &lt;latex&gt;6\ +\ n\ =\ 2n\ +\ 3&lt;/latex&gt;. This equation shows variables on both sides."/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component7">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="7"/>
+            <Property name="text" value="Try different values for &lt;latex&gt;n&lt;/latex&gt; to make the equation balanced. What value of &lt;latex&gt;n&lt;/latex&gt; balances the equation?"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component8">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_MATH_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="8"/>
+            <Property name="text" value="n\ =\ \class{widget 1}{}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="all answers">
+                        <Value>3</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-exact"/>
+                    <Property name="hints">
+                        <Value>Enter the value for &lt;latex&gt;n&lt;/latex&gt; that balances the equation.</Value>
+                        <Value>Enter the equation &lt;latex&gt;6+n=2n+3&lt;/latex&gt; into the explore tool.&lt;br/&gt;
+What value of &lt;latex&gt;n&lt;/latex&gt; balances the equation?</Value>
+                        <Value>&lt;latex&gt;6+(3)=2(3)+3&lt;/latex&gt;&lt;br/&gt;
+&lt;latex&gt;9=6+3&lt;/latex&gt;&lt;br/&gt;
+Enter &lt;literal&gt;&lt;latex&gt;3&lt;/latex&gt;&lt;/literal&gt;.</Value>
+                    </Property>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component9">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="9"/>
+            <Property name="text" value="Subtract &lt;latex&gt;n&lt;/latex&gt; from both sides of the equation. Write the new equation: {{1}} = {{2}}."/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="all answers">
+                        <Value>6</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_string-exact"/>
+                    <Property name="hints">
+                        <Value>Enter the new left side of the equation after you subtract &lt;latex&gt;n&lt;/latex&gt;.</Value>
+                        <Value>What is &lt;latex&gt;6+n-n&lt;/latex&gt;?</Value>
+                        <Value>&lt;latex&gt;6+n-n=6&lt;/latex&gt;&lt;br/&gt;
+Enter &lt;literal&gt;&lt;latex&gt;6&lt;/latex&gt;&lt;/literal&gt;.</Value>
+                    </Property>
+                </PVStructure>
+            </Property>
+            <Property name="option2">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="all answers">
+                        <Value>n+3</Value>
+                        <Value>3+n</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_string-exact"/>
+                    <Property name="hints">
+                        <Value>Enter the new right side of the equation after you subtract &lt;latex&gt;n&lt;/latex&gt;.</Value>
+                        <Value>What is &lt;latex&gt;2n+3-n&lt;/latex&gt;?</Value>
+                        <Value>&lt;latex&gt;2n+3-n=n+3&lt;/latex&gt;
+Enter &lt;literal&gt;&lt;latex&gt;n+3&lt;/latex&gt;&lt;/literal&gt;.</Value>
+                    </Property>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component10">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="10"/>
+            <Property name="text" value="Reset the balance and enter the equation you just wrote. Does the same value of &lt;latex&gt;n&lt;/latex&gt; balance the equation?"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component11">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="11"/>
+            <Property name="text" value="{{1}}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_inline-radio"/>
+                    <Property name="choices">
+                        <Value>Yes</Value>
+                        <Value>No</Value>
+                    </Property>
+                    <Property name="correct-indices">
+                        <Value>0</Value>
+                    </Property>
+                    <Property name="hints">
+                        <Value>Enter the new equation &lt;latex&gt;6=n+3&lt;/latex&gt; in the explore tool.</Value>
+                        <Value>Does the value of &lt;latex&gt;n=3&lt;/latex&gt; still make the new equation balance?</Value>
+                        <Value>&lt;latex&gt;6=(3)+3&lt;/latex&gt;&lt;br/&gt;
+The same value of &lt;latex&gt;n&lt;/latex&gt; still balances the equation.</Value>
+                    </Property>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component12">
+        <ConstructionPVs>
+            <Property name="type" value="Instruction"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="12"/>
+            <Property name="text" value="Enter the equation &lt;latex&gt;x\ +\ 4\ =\ 3x\ +\ 2&lt;/latex&gt;."/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component13">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="13"/>
+            <Property name="text" value="Try different values for &lt;latex&gt;x&lt;/latex&gt; to make the equation balanced. What value of &lt;latex&gt;x&lt;/latex&gt; balances the equation?"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component14">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_MATH_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="14"/>
+            <Property name="text" value="x\ =\ \class{widget 1}{}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="all answers">
+                        <Value>1</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-exact"/>
+                    <Property name="hints">
+                        <Value>Enter the value for &lt;latex&gt;x&lt;/latex&gt; that balances the equation.</Value>
+                        <Value>Enter the equation &lt;latex&gt;x+4=3x+2&lt;/latex&gt; into the explore tool.&lt;br/&gt;
+What value of &lt;latex&gt;x&lt;/latex&gt; balances the equation?</Value>
+                        <Value>&lt;latex&gt;(1)+4=3(1)+2&lt;/latex&gt;&lt;br/&gt;
+&lt;latex&gt;5=3+2&lt;/latex&gt;&lt;br/&gt;
+Enter &lt;literal&gt;&lt;latex&gt;1&lt;/latex&gt;&lt;/literal&gt;.</Value>
+                    </Property>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component15">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="15"/>
+            <Property name="text" value="Subtract &lt;latex&gt;x&lt;/latex&gt; from both sides of the equation. Write the new equation: {{1}} = {{2}}."/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="all answers">
+                        <Value>4</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_string-exact"/>
+                    <Property name="hints">
+                        <Value>Enter the new left side of the equation after you subtract &lt;latex&gt;x&lt;/latex&gt;.</Value>
+                        <Value>What is &lt;latex&gt;x+4-x&lt;/latex&gt;?</Value>
+                        <Value>&lt;latex&gt;x+4-x=4&lt;/latex&gt;&lt;br/&gt;
+Enter &lt;literal&gt;&lt;latex&gt;4&lt;/latex&gt;&lt;/literal&gt;.</Value>
+                    </Property>
+                </PVStructure>
+            </Property>
+            <Property name="option2">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="all answers">
+                        <Value>2x+2</Value>
+                        <Value>2+2x</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_string-exact"/>
+                    <Property name="hints">
+                        <Value>Enter the new right side of the equation after you subtract &lt;latex&gt;x&lt;/latex&gt;.</Value>
+                        <Value>What is &lt;latex&gt;3x+2-x&lt;/latex&gt;?</Value>
+                        <Value>&lt;latex&gt;3x+2-x=2x+2&lt;/latex&gt;&lt;br/&gt;
+Enter &lt;literal&gt;&lt;latex&gt;2x+2&lt;/latex&gt;&lt;/literal&gt;.</Value>
+                    </Property>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component16">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="16"/>
+            <Property name="text" value="Reset the balance and enter the equation you just wrote. Does the same value of &lt;latex&gt;x&lt;/latex&gt; balance the equation?"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component17">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="17"/>
+            <Property name="text" value="{{1}}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_inline-radio"/>
+                    <Property name="choices">
+                        <Value>Yes</Value>
+                        <Value>No</Value>
+                    </Property>
+                    <Property name="correct-indices">
+                        <Value>0</Value>
+                    </Property>
+                    <Property name="hints">
+                        <Value>Enter the new equation &lt;latex&gt;4=2x+2&lt;/latex&gt; in the explore tool.</Value>
+                        <Value>Does the value of &lt;latex&gt;x=1&lt;/latex&gt; still make the new equation balance?</Value>
+                        <Value>&lt;latex&gt;4=2(1)+2&lt;/latex&gt;&lt;br/&gt;
+The same value of &lt;latex&gt;x&lt;/latex&gt; still balances the equation.</Value>
+                    </Property>
+                </PVStructure>
+            </Property>
         </ConstructionPVs>
     </Property>
 </ProblemMetaData>

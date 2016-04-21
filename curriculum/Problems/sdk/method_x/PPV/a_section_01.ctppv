@@ -28,7 +28,7 @@
             <Property name="is-items-on-top" value="True"/>
             <Property name="items">
                 <PVStructure>
-                    <Property name="display-name" value="11(15 + 5)"/>
+                    <Property name="display-name" value="11(15 + 5)"/>
                     <Property name="destination" value="CONT-2"/>
                     <Property name="hints">
                         <Value>Look at the given expressions. Which is equivalent to 11(15 + 5)?</Value>
@@ -43,7 +43,7 @@
                     </Property>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="display-name" value="44   +   55"/>
+                    <Property name="display-name" value="44   +   55"/>
                     <Property name="destination" value="CONT-1"/>
                     <Property name="hints">
                         <Value>Look at the given expressions. Which is equivalent to 44 + 55?</Value>
@@ -57,7 +57,7 @@ Which given is equivalent?
                     </Property>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="display-name" value="165   +   55"/>
+                    <Property name="display-name" value="165   +   55"/>
                     <Property name="destination" value="CONT-2"/>
                     <Property name="hints">
                         <Value>Look at the given expressions. Which is equivalent to 165 + 55 ?</Value>
@@ -74,7 +74,7 @@ Which given is equivalent?
                     </Property>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="display-name" value="11 × 4      +      11 × 5"/>
+                    <Property name="display-name" value="11 × 4      +      11 × 5"/>
                     <Property name="destination" value="CONT-1"/>
                     <Property name="hints">
                         <Value>Look at the given expressions. Which is equivalent to 11 × 4 + 11 × 5?</Value>
@@ -86,7 +86,7 @@ Which given is equivalent?</Value>
                     </Property>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="display-name" value="11 × 15     +     11 × 5"/>
+                    <Property name="display-name" value="11 × 15     +     11 × 5"/>
                     <Property name="destination" value="CONT-2"/>
                     <Property name="hints">
                         <Value>Look at the given expressions. Which is equivalent to 11 × 15 + 11 × 5?</Value>
@@ -96,7 +96,7 @@ Which given is equivalent?</Value>
                     </Property>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="display-name" value="11 × 9"/>
+                    <Property name="display-name" value="11 × 9"/>
                     <Property name="destination" value="CONT-1"/>
                     <Property name="hints">
                         <Value>Look at the given expressions. Which is equivalent to 11 × 9?</Value>
@@ -112,7 +112,7 @@ Which given is equivalent?</Value>
                 </PVStructure>
                 <PVStructure>
                     <Property name="container-id" value="CONT-2"/>
-                    <Property name="display-name" value="11 × 20"/>
+                    <Property name="display-name" value="11 × 20"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

@@ -103,6 +103,12 @@ Which given is equivalent?</Value>
                         <Value>Each given expression contains a factor of 11. How does 9 relate to either 20 or (4 + 5)?</Value>
                         <Value>11 × 9 = 11(4+5)</Value>
                     </Property>
+                    <Property name="jits">
+                        <PVStructure>
+                            <Property name="text" value="123"/>
+                            <Property name="answer" value="CONT-2"/>
+                        </PVStructure>
+                    </Property>
                 </PVStructure>
             </Property>
             <Property name="containers">

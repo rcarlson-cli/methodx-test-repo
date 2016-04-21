@@ -28,7 +28,7 @@
                 <PVStructure>
                     <Property name="option-type" value="_inline-radio"/>
                     <Property name="choices">
-                        <Value>foo</Value>
+                        <Value>foogoo</Value>
                         <Value>bar</Value>
                     </Property>
                     <Property name="correct-indices">

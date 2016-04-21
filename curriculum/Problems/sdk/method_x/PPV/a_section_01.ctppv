@@ -43,7 +43,7 @@
                     </Property>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="display-name" value="44   +   55"/>
+                    <Property name="display-name" value="         44   +   55"/>
                     <Property name="destination" value="CONT-1"/>
                     <Property name="hints">
                         <Value>Look at the given expressions. Which is equivalent to 44 + 55?</Value>

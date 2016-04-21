@@ -12,17 +12,26 @@
     </Property>
     <Property name="component2">
         <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
+            <Property name="type" value="SCENARIO_IMAGE"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="2"/>
-            <Property name="text" value="Drag and drop each expression into the bin with its equivalent expression. Consider how the expressions in the bins are related to the others in the same bin."/>
+            <Property name="content" value="approx_square_roots_1.svg"/>
+            <Property name="accessibility-text" value="approximate square roots"/>
         </ConstructionPVs>
     </Property>
     <Property name="component3">
         <ConstructionPVs>
-            <Property name="type" value="SORTING_TASK"/>
+            <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="3"/>
+            <Property name="text" value="Drag and drop each expression into the bin with its equivalent expression. Consider how the expressions in the bins are related to the others in the same bin."/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component4">
+        <ConstructionPVs>
+            <Property name="type" value="SORTING_TASK"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="4"/>
             <Property name="accept-multiple-items" value="True"/>
             <Property name="is-conjoined" value="False"/>
             <Property name="is-items-on-top" value="True"/>
@@ -123,11 +132,11 @@ Which given is equivalent?</Value>
             </Property>
         </ConstructionPVs>
     </Property>
-    <Property name="component4">
+    <Property name="component5">
         <ConstructionPVs>
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="4"/>
+            <Property name="order" value="5"/>
             <Property name="text" value=""/>
         </ConstructionPVs>
     </Property>

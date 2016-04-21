@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Section name="Check For Understanding" type="CFU" problem_weight="PROGRESSIVE" locale="en_US" lesson="cfu_test_unit">
+<Section name="Check For Understanding" type="CFU" problem_weight="PROGRESSIVE" locale="en_US" lesson="asdf">
     <ProgressTracker type="PROBLEM_METER"/>
 
     <ProblemSetWrapper selector="ORDERED">

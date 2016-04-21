@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemMetaData problem_type_class="METHOD_X_CFU_PROBLEM">
+    <Property name="name" value="ctu"/>
+    <Property name="lms-id" value="cfu_test_unit"/>
+    <Property name="component1">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="1"/>
+            <Property name="text" value="Asdf"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component2">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="2"/>
+            <Property name="text" value="The ratio &lt;latex&gt;\frac{2\ xy}{3\text{ xyz}}&lt;/latex&gt;is"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component3">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_CFU_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="3"/>
+            <Property name="text" value="{{1}}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_inline-radio"/>
+                    <Property name="choices">
+                        <Value>foogoo</Value>
+                        <Value>bar</Value>
+                    </Property>
+                    <Property name="correct-indices">
+                        <Value>0</Value>
+                    </Property>
+                    <Property name="explanations">
+                        <Value>asdf</Value>
+                        <Value>qwerty</Value>
+                    </Property>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component4">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="4"/>
+            <Property name="text" value=""/>
+        </ConstructionPVs>
+    </Property>
+</ProblemMetaData>

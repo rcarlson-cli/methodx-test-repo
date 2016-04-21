@@ -7,7 +7,7 @@
             <Property name="type" value="Instruction"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="1"/>
-            <Property name="text" value="Distributive Property of Multiplication"/>
+            <Property name="text" value="Test Problem"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
@@ -15,8 +15,7 @@
             <Property name="type" value="SCENARIO_IMAGE"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="2"/>
-            <Property name="content" value="approx_square_roots_1.svg"/>
-            <Property name="accessibility-text" value="approximate square roots"/>
+            <Property name="content" value="asdf.png"/>
         </ConstructionPVs>
     </Property>
     <Property name="component3">
@@ -24,7 +23,7 @@
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="3"/>
-            <Property name="text" value="Drag and drop each expression into the bin with its equivalent expression. Consider how the expressions in the bins are related to the others in the same bin."/>
+            <Property name="text" value="A test prob"/>
         </ConstructionPVs>
     </Property>
     <Property name="component4">
@@ -37,97 +36,14 @@
             <Property name="is-items-on-top" value="True"/>
             <Property name="items">
                 <PVStructure>
-                    <Property name="display-name" value="11(15 + 5)"/>
-                    <Property name="destination" value="CONT-2"/>
-                    <Property name="hints">
-                        <Value>Look at the given expressions. Which is equivalent to 11(15 + 5)?</Value>
-                        <Value>Each given expression contains a factor of 11. How is the quantity (15 + 5) equivalent to the other factor in each given expression?</Value>
-                        <Value>11(15 + 5) = 11 × 20</Value>
-                    </Property>
-                    <Property name="jits">
-                        <PVStructure>
-                            <Property name="text" value="The quantities in the parentheses are not the same."/>
-                            <Property name="answer" value="CONT-1"/>
-                        </PVStructure>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="         44   +   55"/>
+                    <Property name="display-name" value="2"/>
                     <Property name="destination" value="CONT-1"/>
-                    <Property name="hints">
-                        <Value>Look at the given expressions. Which is equivalent to 44 + 55?</Value>
-                        <Value>Notice the terms have a common factor. Use the Distributive Property to rewrite the expression 44 + 55 as a factor times a quantity.
-
-Which given is equivalent?
-</Value>
-                        <Value>44 + 55 = 11 × 4 + 11 × 5 
-            = 11(4+5) 
-</Value>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="165   +   55"/>
-                    <Property name="destination" value="CONT-2"/>
-                    <Property name="hints">
-                        <Value>Look at the given expressions. Which is equivalent to 165 + 55 ?</Value>
-                        <Value>There is a common factor of 11 in each term. How can you rewrite 165 + 55 as 11 times a quantity?</Value>
-                        <Value>165 + 55 = 11 × 15 + 11 × 5 
-              = 11(15 + 5)
-              = 11 × 20</Value>
-                    </Property>
-                    <Property name="jits">
-                        <PVStructure>
-                            <Property name="text" value="Both terms have a common factor of 11, but the remaining quantity is not (4 + 5)."/>
-                            <Property name="answer" value="CONT-1"/>
-                        </PVStructure>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="11 × 4      +      11 × 5"/>
-                    <Property name="destination" value="CONT-1"/>
-                    <Property name="hints">
-                        <Value>Look at the given expressions. Which is equivalent to 11 × 4 + 11 × 5?</Value>
-                        <Value>There is a common factor of 11 in each term. How can you rewrite 11 × 4 + 11 × 5 as 11 times a quantity?
-
-Which given is equivalent?</Value>
-                        <Value>11 × 4 + 11 × 5 = 11(4+5) 
-</Value>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="11 × 15     +     11 × 5"/>
-                    <Property name="destination" value="CONT-2"/>
-                    <Property name="hints">
-                        <Value>Look at the given expressions. Which is equivalent to 11 × 15 + 11 × 5?</Value>
-                        <Value>There is a common factor of 11 in each term. How can you rewrite 11 × 15 + 11 × 5 as 11 times a quantity?</Value>
-                        <Value>11 × 15 + 11 × 5 = 11(15 + 5)
-                           = 11 × 20 </Value>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="11 × 9"/>
-                    <Property name="destination" value="CONT-1"/>
-                    <Property name="hints">
-                        <Value>Look at the given expressions. Which is equivalent to 11 × 9?</Value>
-                        <Value>Each given expression contains a factor of 11. How does 9 relate to either 20 or (4 + 5)?</Value>
-                        <Value>11 × 9 = 11(4+5)</Value>
-                    </Property>
-                    <Property name="jits">
-                        <PVStructure>
-                            <Property name="text" value="123"/>
-                            <Property name="answer" value="CONT-2"/>
-                        </PVStructure>
-                    </Property>
                 </PVStructure>
             </Property>
             <Property name="containers">
                 <PVStructure>
                     <Property name="container-id" value="CONT-1"/>
-                    <Property name="display-name" value="11(4+5)"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="container-id" value="CONT-2"/>
-                    <Property name="display-name" value="11 × 20"/>
+                    <Property name="display-name" value="1"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

@@ -112,7 +112,7 @@ Which given is equivalent?</Value>
                 </PVStructure>
                 <PVStructure>
                     <Property name="container-id" value="CONT-2"/>
-                    <Property name="display-name" value="11 × 20"/>
+                    <Property name="display-name" value="11&amp;nbsp;×&amp;nbsp;20"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

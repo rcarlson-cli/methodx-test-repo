@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Section name="Check For Understanding" type="CFU" problem_weight="PROGRESSIVE" locale="en_US" lesson="test_unit_cfu">
+    <ProgressTracker type="PROBLEM_METER"/>
+
+    <ProblemSetWrapper selector="ORDERED">
+        <ToolLayout><![CDATA[{"id": "MethodXFIBTool", "weight": "100%"}]]></ToolLayout>
+        
+        
+        <ToolSpec tre_id="MethodXFIBTool" display_name="Questions" type="methodXTool2" tool_implementation_class="ctp-question-and-answer-tool">
+            <SetOptions/>
+        </ToolSpec>
+        
+
+        <ProblemSet>
+           <SelectionAlgo type="REQUIRED" impl_class="Ordered"/>
+           <ExitCriterion impl_class="cl.services.ct.sectiondata.knowledgetracing.TotalProblemCountCriterion">
+               <AttValue attribute="count" value="1"/>
+           </ExitCriterion>
+           
+           <Problem problem_id="test_unit_cfu"/>
+           
+        </ProblemSet>
+
+    </ProblemSetWrapper>
+</Section>

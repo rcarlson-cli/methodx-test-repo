@@ -129,4 +129,54 @@
             </Property>
         </ConstructionPVs>
     </Property>
+    <Property name="component13">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="13"/>
+            <Property name="text" value="Sorting"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component14">
+        <ConstructionPVs>
+            <Property name="type" value="SORTING_TASK"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="14"/>
+            <Property name="accept-multiple-items" value="True"/>
+            <Property name="is-conjoined" value="False"/>
+            <Property name="is-items-on-top" value="True"/>
+            <Property name="items">
+                <PVStructure>
+                    <Property name="display-name" value="AZ"/>
+                    <Property name="destination" value="CONT-1"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="display-name" value="NY"/>
+                    <Property name="destination" value="CONT-1"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="display-name" value="Ontario"/>
+                    <Property name="destination" value="CONT-2"/>
+                </PVStructure>
+            </Property>
+            <Property name="containers">
+                <PVStructure>
+                    <Property name="container-id" value="CONT-1"/>
+                    <Property name="display-name" value="US"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="container-id" value="CONT-2"/>
+                    <Property name="display-name" value="Canada"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component15">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="15"/>
+            <Property name="text" value="end sorting"/>
+        </ConstructionPVs>
+    </Property>
 </ProblemMetaData>

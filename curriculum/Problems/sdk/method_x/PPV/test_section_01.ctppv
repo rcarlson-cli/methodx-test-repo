@@ -33,10 +33,22 @@
                     <Property name="hints">
                         <Value>first&lt;br/&gt;second</Value>
                     </Property>
+                    <Property name="jits">
+                        <PVStructure>
+                            <Property name="text" value="eek dumb dumb &lt;br/&gt;dumb"/>
+                            <Property name="answer" value="CONT-2"/>
+                        </PVStructure>
+                    </Property>
                 </PVStructure>
                 <PVStructure>
                     <Property name="display-name" value="MEXICO"/>
                     <Property name="destination" value="CONT-2"/>
+                    <Property name="jits">
+                        <PVStructure>
+                            <Property name="text" value="nope."/>
+                            <Property name="answer" value="CONT-1"/>
+                        </PVStructure>
+                    </Property>
                 </PVStructure>
             </Property>
             <Property name="containers">

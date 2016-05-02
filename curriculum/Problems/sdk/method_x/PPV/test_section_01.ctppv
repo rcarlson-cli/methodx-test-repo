@@ -5,7 +5,7 @@
     <Property name="component1">
         <ConstructionPVs>
             <Property name="type" value="TITLE"/>
-            <Property name="tutor" value="Scenario"/>
+            <Property name="tutor" value="FIB"/>
             <Property name="order" value="1"/>
             <Property name="text" value="Test Title"/>
         </ConstructionPVs>
@@ -61,6 +61,14 @@
                     <Property name="display-name" value="Whatever"/>
                 </PVStructure>
             </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component4">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="4"/>
+            <Property name="text" value=""/>
         </ConstructionPVs>
     </Property>
 </ProblemMetaData>

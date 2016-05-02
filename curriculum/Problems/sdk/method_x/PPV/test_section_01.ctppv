@@ -20,84 +20,9 @@
     </Property>
     <Property name="component3">
         <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="3"/>
-            <Property name="group" value="group1"/>
-            <Property name="text" value="Textbox: {{1}}"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="all answers">
-                        <Value>abc</Value>
-                    </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                    <Property name="jits">
-                        <PVStructure>
-                            <Property name="text" value="you are&lt;br/&gt;a &lt;br/&gt;stupidhead"/>
-                            <Property name="answer" value="cde"/>
-                        </PVStructure>
-                    </Property>
-                </PVStructure>
-            </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component4">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="4"/>
-            <Property name="group" value="group1"/>
-            <Property name="text" value="And a dropdown: {{1}}"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_dropdown"/>
-                    <Property name="choices">
-                        <Value>a</Value>
-                        <Value>b&lt;br/&gt;c</Value>
-                    </Property>
-                    <Property name="correct-indices">
-                        <Value>1</Value>
-                    </Property>
-                </PVStructure>
-            </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component5">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="5"/>
-            <Property name="group" value="group2"/>
-            <Property name="text" value="Finally, a radio group{{1}} next to a textbox {{2}}"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_inline-radio"/>
-                    <Property name="choices">
-                        <Value>bleh</Value>
-                        <Value>blah</Value>
-                    </Property>
-                    <Property name="correct-indices">
-                        <Value>0</Value>
-                    </Property>
-                </PVStructure>
-            </Property>
-            <Property name="option2">
-                <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="all answers">
-                        <Value>12</Value>
-                    </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                </PVStructure>
-            </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component6">
-        <ConstructionPVs>
             <Property name="type" value="SORTING_TASK"/>
             <Property name="tutor" value="FIB"/>
-            <Property name="order" value="6"/>
+            <Property name="order" value="3"/>
             <Property name="accept-multiple-items" value="True"/>
             <Property name="is-conjoined" value="False"/>
             <Property name="is-items-on-top" value="True"/>
@@ -109,11 +34,19 @@
                         <Value>first&lt;br/&gt;second</Value>
                     </Property>
                 </PVStructure>
+                <PVStructure>
+                    <Property name="display-name" value="MEXICO"/>
+                    <Property name="destination" value="CONT-2"/>
+                </PVStructure>
             </Property>
             <Property name="containers">
                 <PVStructure>
                     <Property name="container-id" value="CONT-1"/>
                     <Property name="display-name" value="US"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="container-id" value="CONT-2"/>
+                    <Property name="display-name" value="Whatever"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

@@ -32,6 +32,12 @@
                         <Value>abc</Value>
                     </Property>
                     <Property name="answer-checktype" value="_alg-equal"/>
+                    <Property name="jits">
+                        <PVStructure>
+                            <Property name="text" value="you are&lt;br/&gt;a &lt;br/&gt;stupidhead"/>
+                            <Property name="answer" value="cde"/>
+                        </PVStructure>
+                    </Property>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

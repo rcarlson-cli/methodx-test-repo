@@ -34,7 +34,7 @@
             <Property name="order" value="4"/>
             <Property name="columns">
                 <PVStructure>
-                    <Property name="format" value="_empty"/>
+                    <Property name="format" value="empty"/>
                     <Property name="heading" value=""/>
                 </PVStructure>
                 <PVStructure>
@@ -48,7 +48,7 @@
             </Property>
             <Property name="rows">
                 <PVStructure>
-                    <Property name="format" value="_empty"/>
+                    <Property name="format" value="empty"/>
                     <Property name="label" value=""/>
                     <Property name="cells">
                         <PVStructure>
@@ -62,7 +62,7 @@
                     </Property>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="format" value="_empty"/>
+                    <Property name="format" value="empty"/>
                     <Property name="label" value=""/>
                     <Property name="cells">
                         <PVStructure>

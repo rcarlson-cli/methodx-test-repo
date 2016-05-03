@@ -88,42 +88,6 @@
                             <Property name="text" value="a"/>
                             <Property name="answer" value="1"/>
                         </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="b"/>
-                            <Property name="answer" value="2"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="c"/>
-                            <Property name="answer" value="3"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="d"/>
-                            <Property name="answer" value="4"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="e"/>
-                            <Property name="answer" value="5"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="f"/>
-                            <Property name="answer" value="6"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="g"/>
-                            <Property name="answer" value="7"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="h"/>
-                            <Property name="answer" value="8"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="i"/>
-                            <Property name="answer" value="9"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="j"/>
-                            <Property name="answer" value="10"/>
-                        </PVStructure>
                     </Property>
                 </PVStructure>
             </Property>

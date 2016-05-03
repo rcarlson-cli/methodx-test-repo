@@ -20,9 +20,18 @@
     </Property>
     <Property name="component3">
         <ConstructionPVs>
-            <Property name="type" value="SORTING_TASK"/>
+            <Property name="type" value="SCENARIO_IMAGE"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="3"/>
+            <Property name="content" value="foo.png"/>
+            <Property name="accessibility-text" value="ABC DEF GHI"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component4">
+        <ConstructionPVs>
+            <Property name="type" value="SORTING_TASK"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="4"/>
             <Property name="accept-multiple-items" value="True"/>
             <Property name="is-conjoined" value="False"/>
             <Property name="is-items-on-top" value="True"/>
@@ -60,11 +69,11 @@
             </Property>
         </ConstructionPVs>
     </Property>
-    <Property name="component4">
+    <Property name="component5">
         <ConstructionPVs>
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="4"/>
+            <Property name="order" value="5"/>
             <Property name="text" value=""/>
         </ConstructionPVs>
     </Property>

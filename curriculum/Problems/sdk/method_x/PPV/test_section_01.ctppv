@@ -29,9 +29,60 @@
     </Property>
     <Property name="component4">
         <ConstructionPVs>
-            <Property name="type" value="SORTING_TASK"/>
+            <Property name="type" value="METHOD_X_WORKSHEET"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="4"/>
+            <Property name="columns">
+                <PVStructure>
+                    <Property name="format" value="_empty"/>
+                    <Property name="heading" value=""/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="format" value="_text"/>
+                    <Property name="heading" value="ABC"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="format" value="_text"/>
+                    <Property name="heading" value="DEF"/>
+                </PVStructure>
+            </Property>
+            <Property name="rows">
+                <PVStructure>
+                    <Property name="format" value="_empty"/>
+                    <Property name="label" value=""/>
+                    <Property name="cells">
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="1"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="2"/>
+                        </PVStructure>
+                    </Property>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="format" value="_empty"/>
+                    <Property name="label" value=""/>
+                    <Property name="cells">
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="3"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="4"/>
+                        </PVStructure>
+                    </Property>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component5">
+        <ConstructionPVs>
+            <Property name="type" value="SORTING_TASK"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="5"/>
             <Property name="accept-multiple-items" value="True"/>
             <Property name="is-conjoined" value="False"/>
             <Property name="is-items-on-top" value="True"/>
@@ -65,30 +116,6 @@
                 <PVStructure>
                     <Property name="container-id" value="CONT-3"/>
                     <Property name="display-name" value="None of these"/>
-                </PVStructure>
-            </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component5">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="5"/>
-            <Property name="group" value="group1"/>
-            <Property name="text" value="{{1}}"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="all answers">
-                        <Value>0</Value>
-                    </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                    <Property name="jits">
-                        <PVStructure>
-                            <Property name="text" value="a"/>
-                            <Property name="answer" value="1"/>
-                        </PVStructure>
-                    </Property>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

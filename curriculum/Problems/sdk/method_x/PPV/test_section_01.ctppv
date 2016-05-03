@@ -71,9 +71,69 @@
     </Property>
     <Property name="component5">
         <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="5"/>
+            <Property name="group" value="group1"/>
+            <Property name="text" value="{{1}}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="all answers">
+                        <Value>0</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-equal"/>
+                    <Property name="jits">
+                        <PVStructure>
+                            <Property name="text" value="a"/>
+                            <Property name="answer" value="1"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="b"/>
+                            <Property name="answer" value="2"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="c"/>
+                            <Property name="answer" value="3"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="d"/>
+                            <Property name="answer" value="4"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="e"/>
+                            <Property name="answer" value="5"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="f"/>
+                            <Property name="answer" value="6"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="g"/>
+                            <Property name="answer" value="7"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="h"/>
+                            <Property name="answer" value="8"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="i"/>
+                            <Property name="answer" value="9"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="j"/>
+                            <Property name="answer" value="10"/>
+                        </PVStructure>
+                    </Property>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component6">
+        <ConstructionPVs>
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="5"/>
+            <Property name="order" value="6"/>
             <Property name="text" value=""/>
         </ConstructionPVs>
     </Property>

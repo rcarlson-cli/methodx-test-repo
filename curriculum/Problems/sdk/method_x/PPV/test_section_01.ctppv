@@ -48,8 +48,8 @@
             </Property>
             <Property name="rows">
                 <PVStructure>
-                    <Property name="format" value="empty"/>
-                    <Property name="label" value=""/>
+                    <Property name="format" value="_text"/>
+                    <Property name="label" value="blah"/>
                     <Property name="cells">
                         <PVStructure>
                             <Property name="format" value="_text"/>
@@ -62,8 +62,8 @@
                     </Property>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="format" value="empty"/>
-                    <Property name="label" value=""/>
+                    <Property name="format" value="_text"/>
+                    <Property name="label" value="bleh"/>
                     <Property name="cells">
                         <PVStructure>
                             <Property name="format" value="_text"/>

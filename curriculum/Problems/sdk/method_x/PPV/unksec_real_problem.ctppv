@@ -143,7 +143,7 @@
             <Property name="containers">
                 <PVStructure>
                     <Property name="container-id" value="CONT-1"/>
-                    <Property name="display-name" value="B"/>
+                    <Property name="display-name" value="C"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

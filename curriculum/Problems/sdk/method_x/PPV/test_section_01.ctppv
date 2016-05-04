@@ -71,9 +71,27 @@
     </Property>
     <Property name="component4">
         <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="4"/>
+            <Property name="group" value="group1"/>
+            <Property name="text" value="Textbox! {{1}}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="all answers">
+                        <Value>2</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-equal"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component5">
+        <ConstructionPVs>
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="4"/>
+            <Property name="order" value="5"/>
             <Property name="text" value=""/>
         </ConstructionPVs>
     </Property>

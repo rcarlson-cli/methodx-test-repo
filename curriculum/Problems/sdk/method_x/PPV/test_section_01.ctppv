@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
+    <Property name="name" value="ts01"/>
+    <Property name="lms-id" value="test_section_01"/>
+    <Property name="component1">
+        <ConstructionPVs>
+            <Property name="type" value="TITLE"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="1"/>
+            <Property name="group" value="nogroup1"/>
+            <Property name="text" value="Test Title"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component2">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="2"/>
+            <Property name="group" value="nogroup2"/>
+            <Property name="text" value="Whatever…"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component3">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_WORKSHEET"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="3"/>
+            <Property name="group" value="nogroup3"/>
+            <Property name="columns">
+                <PVStructure>
+                    <Property name="format" value="_empty"/>
+                    <Property name="heading" value=""/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="format" value="_text"/>
+                    <Property name="heading" value="ABC"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="format" value="_text"/>
+                    <Property name="heading" value="DEF"/>
+                </PVStructure>
+            </Property>
+            <Property name="rows">
+                <PVStructure>
+                    <Property name="format" value="_text"/>
+                    <Property name="label" value="Row1"/>
+                    <Property name="cells">
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="R1C1"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="R1C2"/>
+                        </PVStructure>
+                    </Property>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="format" value="_text"/>
+                    <Property name="label" value="Row2"/>
+                    <Property name="cells">
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="R2C1"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="R2C2"/>
+                        </PVStructure>
+                    </Property>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component4">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="4"/>
+            <Property name="group" value="group1"/>
+            <Property name="text" value="Set up a proportion and use &lt;br/&gt;&lt;latex&gt;n&lt;/latex&gt; for the unknown. Then solve using equivalent fractions."/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component5">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="5"/>
+            <Property name="group" value="group1"/>
+            <Property name="text" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt; &lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component6">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_MATH_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="6"/>
+            <Property name="group" value="group1"/>
+            <Property name="text" value="\frac{\class{widget 1}{}}{100}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="all answers">
+                        <Value>2</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-exact"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component7">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="7"/>
+            <Property name="group" value="nogroup4"/>
+            <Property name="text" value=""/>
+        </ConstructionPVs>
+    </Property>
+</ProblemMetaData>

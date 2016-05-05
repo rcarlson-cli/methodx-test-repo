@@ -7,6 +7,7 @@
             <Property name="type" value="TITLE"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="1"/>
+            <Property name="group" value="nogroup1"/>
             <Property name="text" value="Describing Patterns of Association"/>
         </ConstructionPVs>
     </Property>
@@ -15,6 +16,7 @@
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="2"/>
+            <Property name="group" value="nogroup2"/>
             <Property name="text" value="When analyzing a data set, one of the first steps is to look at a plot of the data and describe any patterns. With numerical bivariate data, a scatter plot is used to examine the data. The overall patterns or relationships identified in scatter plots of a bivariate data set are called associations."/>
         </ConstructionPVs>
     </Property>
@@ -23,6 +25,7 @@
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="3"/>
+            <Property name="group" value="nogroup3"/>
             <Property name="text" value="Look for patterns such as clustering, outliers, positive or negative association, linear association, and nonlinear association."/>
         </ConstructionPVs>
     </Property>
@@ -31,6 +34,7 @@
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="4"/>
+            <Property name="group" value="nogroup4"/>
             <Property name="text" value="Examples of each pattern are provided."/>
         </ConstructionPVs>
     </Property>
@@ -39,6 +43,7 @@
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="5"/>
+            <Property name="group" value="nogroup5"/>
             <Property name="text" value="&lt;strong&gt;Example 1:&lt;/strong&gt; The scatter plot shows a negative linear association because a line with a negative slope can be used to create a model of the data set. It also shows clustering of data values in the second and fourth quadrants."/>
         </ConstructionPVs>
     </Property>
@@ -47,6 +52,7 @@
             <Property name="type" value="SCENARIO_IMAGE"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="6"/>
+            <Property name="group" value="nogroup6"/>
             <Property name="content" value="real_problem_01.png"/>
         </ConstructionPVs>
     </Property>
@@ -55,6 +61,7 @@
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="7"/>
+            <Property name="group" value="nogroup7"/>
             <Property name="text" value="&lt;strong&gt;Example 2:&lt;/strong&gt; The scatter plot shows a positive linear association because a line with a positive slope can be used to create a model of the data set. The scatter plot also shows a gap in the data values."/>
         </ConstructionPVs>
     </Property>
@@ -63,6 +70,7 @@
             <Property name="type" value="SCENARIO_IMAGE"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="8"/>
+            <Property name="group" value="nogroup8"/>
             <Property name="content" value="real_problem_02.png"/>
         </ConstructionPVs>
     </Property>
@@ -71,6 +79,7 @@
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="9"/>
+            <Property name="group" value="nogroup9"/>
             <Property name="text" value="&lt;strong&gt;Example 3:&lt;/strong&gt; The scatter plot shows a negative linear association with an outlier in the upper left."/>
         </ConstructionPVs>
     </Property>
@@ -79,6 +88,7 @@
             <Property name="type" value="SCENARIO_IMAGE"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="10"/>
+            <Property name="group" value="nogroup10"/>
             <Property name="content" value="real_problem_03.png"/>
         </ConstructionPVs>
     </Property>
@@ -87,6 +97,7 @@
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="11"/>
+            <Property name="group" value="nogroup11"/>
             <Property name="text" value="&lt;strong&gt;Example 4:&lt;/strong&gt; The scatter plot shows a distinct nonlinear pattern. As the independent quantity increases, the dependent quantity increases at a faster and faster rate."/>
         </ConstructionPVs>
     </Property>
@@ -95,6 +106,7 @@
             <Property name="type" value="SCENARIO_IMAGE"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="12"/>
+            <Property name="group" value="nogroup12"/>
             <Property name="content" value="real_problem_04.png"/>
         </ConstructionPVs>
     </Property>
@@ -103,6 +115,7 @@
             <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="13"/>
+            <Property name="group" value="nogroup13"/>
             <Property name="text" value="&lt;strong&gt;Example 5:&lt;/strong&gt; Although you could create a line of best fit for this scatter plot, there is no clear association between the quantities."/>
         </ConstructionPVs>
     </Property>
@@ -111,6 +124,7 @@
             <Property name="type" value="SCENARIO_IMAGE"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="14"/>
+            <Property name="group" value="nogroup14"/>
             <Property name="content" value="real_problem_05.png"/>
         </ConstructionPVs>
     </Property>
@@ -119,6 +133,7 @@
             <Property name="type" value="Instruction"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="15"/>
+            <Property name="group" value="nogroup15"/>
             <Property name="text" value="Read the examples and then drag each graph into the appropriate category."/>
         </ConstructionPVs>
     </Property>
@@ -127,6 +142,7 @@
             <Property name="type" value="SORTING_TASK"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="16"/>
+            <Property name="group" value="nogroup16"/>
             <Property name="accept-multiple-items" value="True"/>
             <Property name="is-conjoined" value="False"/>
             <Property name="is-items-on-top" value="True"/>

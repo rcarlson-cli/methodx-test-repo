@@ -47,7 +47,7 @@
                     <Property name="cells">
                         <PVStructure>
                             <Property name="format" value="_text"/>
-                            <Property name="value" value="R1C1a"/>
+                            <Property name="value" value="R1C1ab"/>
                         </PVStructure>
                         <PVStructure>
                             <Property name="format" value="_text"/>

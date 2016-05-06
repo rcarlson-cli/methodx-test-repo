@@ -17,7 +17,7 @@
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="2"/>
             <Property name="group" value="nogroup2"/>
-            <Property name="text" value="The &lt;latex&gt;1+2&amp;amp;lt;4&lt;/latex&gt; signs is important"/>
+            <Property name="text" value="The &lt;latex&gt;1+2&amp;lt;4&lt;/latex&gt; signs is important"/>
         </ConstructionPVs>
     </Property>
     <Property name="component3">

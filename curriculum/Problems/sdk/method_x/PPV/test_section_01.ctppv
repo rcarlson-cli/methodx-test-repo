@@ -148,9 +148,9 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>abc</Value>
+                        <Value>0.5</Value>
                     </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
+                    <Property name="answer-checktype" value="_alg-equal-integer"/>
                 </PVStructure>
             </Property>
             <Property name="option2">
@@ -184,9 +184,9 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>abc</Value>
+                        <Value>0.5</Value>
                     </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
+                    <Property name="answer-checktype" value="_alg-equal-integer"/>
                 </PVStructure>
             </Property>
             <Property name="option2">

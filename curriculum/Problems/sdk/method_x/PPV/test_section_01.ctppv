@@ -150,7 +150,7 @@
                     <Property name="all answers">
                         <Value>abc</Value>
                     </Property>
-                    <Property name="answer-checktype" value="_string-exact"/>
+                    <Property name="answer-checktype" value="_alg-equal"/>
                 </PVStructure>
             </Property>
             <Property name="option2">
@@ -186,7 +186,7 @@
                     <Property name="all answers">
                         <Value>abc</Value>
                     </Property>
-                    <Property name="answer-checktype" value="_string-exact"/>
+                    <Property name="answer-checktype" value="_alg-equal"/>
                 </PVStructure>
             </Property>
             <Property name="option2">
@@ -384,7 +384,7 @@
                     <Property name="all answers">
                         <Value>i</Value>
                     </Property>
-                    <Property name="answer-checktype" value="_string-exact"/>
+                    <Property name="answer-checktype" value="_alg-equal"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

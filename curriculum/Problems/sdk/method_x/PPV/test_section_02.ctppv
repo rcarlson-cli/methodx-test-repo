@@ -60,6 +60,20 @@
                         </PVStructure>
                     </Property>
                 </PVStructure>
+                <PVStructure>
+                    <Property name="format" value="_text"/>
+                    <Property name="label" value="Row 3"/>
+                    <Property name="cells">
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="R3C1"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="R3C2"/>
+                        </PVStructure>
+                    </Property>
+                </PVStructure>
             </Property>
         </ConstructionPVs>
     </Property>

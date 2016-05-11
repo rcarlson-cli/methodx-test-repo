@@ -20,11 +20,9 @@
             <Property name="columns">
                 <PVStructure>
                     <Property name="format" value="_empty"/>
-                    <Property name="heading" value=""/>
                 </PVStructure>
                 <PVStructure>
                     <Property name="format" value="_empty"/>
-                    <Property name="heading" value=""/>
                 </PVStructure>
                 <PVStructure>
                     <Property name="format" value="_text"/>
@@ -48,7 +46,6 @@
                 </PVStructure>
                 <PVStructure>
                     <Property name="format" value="_empty"/>
-                    <Property name="label" value=""/>
                     <Property name="cells">
                         <PVStructure>
                             <Property name="format" value="_text"/>

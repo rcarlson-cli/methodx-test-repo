@@ -19,8 +19,12 @@
             <Property name="group" value="nogroup2"/>
             <Property name="columns">
                 <PVStructure>
-                    <Property name="format" value="_text"/>
-                    <Property name="heading" value="Col 1"/>
+                    <Property name="format" value="_empty"/>
+                    <Property name="heading" value=""/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="format" value="_empty"/>
+                    <Property name="heading" value=""/>
                 </PVStructure>
                 <PVStructure>
                     <Property name="format" value="_text"/>
@@ -29,6 +33,8 @@
             </Property>
             <Property name="rows">
                 <PVStructure>
+                    <Property name="format" value="_text"/>
+                    <Property name="label" value="Row 1"/>
                     <Property name="cells">
                         <PVStructure>
                             <Property name="format" value="_text"/>

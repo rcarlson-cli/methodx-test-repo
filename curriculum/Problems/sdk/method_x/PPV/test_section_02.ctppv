@@ -19,10 +19,6 @@
             <Property name="group" value="nogroup2"/>
             <Property name="columns">
                 <PVStructure>
-                    <Property name="format" value="_empty"/>
-                    <Property name="heading" value=""/>
-                </PVStructure>
-                <PVStructure>
                     <Property name="format" value="_text"/>
                     <Property name="heading" value="Col 1"/>
                 </PVStructure>

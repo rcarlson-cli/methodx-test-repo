@@ -47,6 +47,8 @@
                     </Property>
                 </PVStructure>
                 <PVStructure>
+                    <Property name="format" value="_empty"/>
+                    <Property name="label" value=""/>
                     <Property name="cells">
                         <PVStructure>
                             <Property name="format" value="_text"/>

@@ -31,7 +31,7 @@
             <Property name="is-items-on-top" value="True"/>
             <Property name="items">
                 <PVStructure>
-                    <Property name="display-name" value="abc"/>
+                    <Property name="display-name" value="a&amp;nbsp;&amp;nbsp;b c"/>
                     <Property name="destination" value="CONT-1"/>
                 </PVStructure>
             </Property>

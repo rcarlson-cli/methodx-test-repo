@@ -38,7 +38,7 @@
             <Property name="containers">
                 <PVStructure>
                     <Property name="container-id" value="CONT-1"/>
-                    <Property name="display-name" value="1   +   2 * 3"/>
+                    <Property name="display-name" value="1&amp;#xA0;&amp;#xA0;&amp;#xA0;+&amp;#xA0;&amp;#xA0;&amp;#xA0;2&amp;#xA0;*&amp;#xA0;3"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

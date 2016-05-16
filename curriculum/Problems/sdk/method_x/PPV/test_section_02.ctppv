@@ -22,9 +22,15 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>\frac{6}{2}</Value>
+                        <Value>\frac{1}{2}</Value>
                     </Property>
                     <Property name="answer-checktype" value="_alg-exact"/>
+                    <Property name="jits">
+                        <PVStructure>
+                            <Property name="text" value="exact equal jit!"/>
+                            <Property name="answer" value="0.5"/>
+                        </PVStructure>
+                    </Property>
                 </PVStructure>
             </Property>
         </ConstructionPVs>
@@ -40,9 +46,15 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>\frac{6}{2}</Value>
+                        <Value>\frac{1}{2}</Value>
                     </Property>
                     <Property name="answer-checktype" value="_alg-equal-fraction"/>
+                    <Property name="jits">
+                        <PVStructure>
+                            <Property name="text" value="fractions only jit!"/>
+                            <Property name="answer" value="0.5"/>
+                        </PVStructure>
+                    </Property>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

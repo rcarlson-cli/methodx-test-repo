@@ -54,6 +54,10 @@
                             <Property name="text" value="fractions only jit!"/>
                             <Property name="answer" value="0.5"/>
                         </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="50/100 jit"/>
+                            <Property name="answer" value="50/100"/>
+                        </PVStructure>
                     </Property>
                 </PVStructure>
             </Property>

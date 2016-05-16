@@ -51,16 +51,16 @@
                     <Property name="answer-checktype" value="_alg-equal-decimal"/>
                     <Property name="jits">
                         <PVStructure>
-                            <Property name="text" value=".4 jit"/>
-                            <Property name="answer" value=".4"/>
+                            <Property name="text" value="40/100 jit"/>
+                            <Property name="answer" value="40/100"/>
                         </PVStructure>
                         <PVStructure>
                             <Property name="text" value="4/100 jit"/>
                             <Property name="answer" value="4/100"/>
                         </PVStructure>
                         <PVStructure>
-                            <Property name="text" value="40/100 jit"/>
-                            <Property name="answer" value="40/100"/>
+                            <Property name="text" value=".4 jit"/>
+                            <Property name="answer" value=".4"/>
                         </PVStructure>
                     </Property>
                 </PVStructure>

@@ -10,11 +10,9 @@
             <SetOptions/>
         </ToolSpec>
         
-        
         <ToolSpec tre_id="MethodXFIBTool" display_name="Questions" type="methodXTool2" tool_implementation_class="ctp-question-and-answer-tool">
             <SetOptions/>
         </ToolSpec>
-        
         
         <ProblemSet>
             <SelectionAlgo type="REQUIRED" impl_class="Random"/>

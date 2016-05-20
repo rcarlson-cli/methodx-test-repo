@@ -35,21 +35,12 @@
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="4"/>
             <Property name="group" value="group1"/>
-            <Property name="text" value="(\class{widget 1}{},\ 5)\text{ and }(\class{widget 2}{},\ 6)"/>
+            <Property name="text" value="1+\class{widget 1}{}=2"/>
             <Property name="option1">
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
                         <Value>123</Value>
-                    </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                </PVStructure>
-            </Property>
-            <Property name="option2">
-                <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="all answers">
-                        <Value>2</Value>
                     </Property>
                     <Property name="answer-checktype" value="_alg-equal"/>
                 </PVStructure>

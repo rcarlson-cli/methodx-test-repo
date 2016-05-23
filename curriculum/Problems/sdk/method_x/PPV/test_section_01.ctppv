@@ -31,7 +31,7 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>\sqrt{{x}^{2}}</Value>
+                        <Value>1</Value>
                     </Property>
                     <Property name="answer-checktype" value="_alg-equal"/>
                     <Property name="hints">

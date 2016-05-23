@@ -73,14 +73,14 @@
             <Property name="is-items-on-top" value="True"/>
             <Property name="items">
                 <PVStructure>
-                    <Property name="display-name" value="xyz &lt;latex&gt;{ {x}^{2} }&lt;/latex&gt; WHAT"/>
+                    <Property name="display-name" value="xyz &lt;latex&gt;\sqrt{ {x}^{2} }&lt;/latex&gt; WHAT"/>
                     <Property name="destination" value="CONT-1"/>
                 </PVStructure>
             </Property>
             <Property name="containers">
                 <PVStructure>
                     <Property name="container-id" value="CONT-1"/>
-                    <Property name="display-name" value="abc &lt;latex&gt;{ {x}^{2} }&lt;/latex&gt; def"/>
+                    <Property name="display-name" value="abc &lt;latex&gt;\sqrt{ {x}^{2} }&lt;/latex&gt; def"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

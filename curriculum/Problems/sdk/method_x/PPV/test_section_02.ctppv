@@ -26,25 +26,7 @@
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="3"/>
             <Property name="group" value="group1"/>
-            <Property name="text" value="To create her line of best fit, Shana used the two data points that her line passes through:"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component4">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_MATH_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="4"/>
-            <Property name="group" value="group1"/>
-            <Property name="text" value="1+\class{widget 1}{}=2"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="all answers">
-                        <Value>1234</Value>
-                    </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                </PVStructure>
-            </Property>
+            <Property name="text" value="To create her line of best fit, Shana used the two data points that her line passes through: &lt;latex&gt;1+\sqrt{{x}^{2}}&lt;/latex&gt;"/>
         </ConstructionPVs>
     </Property>
 </ProblemMetaData>

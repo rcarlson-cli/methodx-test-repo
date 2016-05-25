@@ -31,11 +31,14 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>12</Value>
+                        <Value>123</Value>
                     </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                    <Property name="hints">
-                        <Value>Hint &lt;latex&gt;\sqrt{{x}^{2}}&lt;/latex&gt;</Value>
+                    <Property name="answer-checktype" value="_alg-exact"/>
+                    <Property name="jits">
+                        <PVStructure>
+                            <Property name="text" value="exact equal jit!"/>
+                            <Property name="answer" value="0.5"/>
+                        </PVStructure>
                     </Property>
                 </PVStructure>
             </Property>
@@ -52,8 +55,8 @@
                 <PVStructure>
                     <Property name="option-type" value="_dropdown"/>
                     <Property name="choices">
-                        <Value>&lt;latex&gt;\sqrt{{x}^{2}}&lt;/latex&gt;</Value>
-                        <Value>&lt;latex&gt;\sqrt{{x}^{4}}&lt;/latex&gt;</Value>
+                        <Value>1</Value>
+                        <Value>2</Value>
                     </Property>
                     <Property name="correct-indices">
                         <Value>0</Value>
@@ -73,14 +76,14 @@
             <Property name="is-items-on-top" value="True"/>
             <Property name="items">
                 <PVStructure>
-                    <Property name="display-name" value="xyz &lt;latex&gt;\sqrt{{x}^{2}}&lt;/latex&gt; WHAT"/>
+                    <Property name="display-name" value="fdsa"/>
                     <Property name="destination" value="CONT-1"/>
                 </PVStructure>
             </Property>
             <Property name="containers">
                 <PVStructure>
                     <Property name="container-id" value="CONT-1"/>
-                    <Property name="display-name" value="abc &lt;latex&gt;\sqrt{{x}^{2}}&lt;/latex&gt; def"/>
+                    <Property name="display-name" value="asdf"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

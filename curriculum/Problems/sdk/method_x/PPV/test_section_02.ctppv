@@ -52,7 +52,16 @@
             <Property name="group" value="group2"/>
             <Property name="text" value="Eek {{1}} woot"/>
             <Property name="option1">
-                <PVStructure/>
+                <PVStructure>
+                    <Property name="option-type" value="_dropdown"/>
+                    <Property name="choices">
+                        <Value>1</Value>
+                        <Value>2</Value>
+                    </Property>
+                    <Property name="correct-indices">
+                        <Value>0</Value>
+                    </Property>
+                </PVStructure>
             </Property>
         </ConstructionPVs>
     </Property>

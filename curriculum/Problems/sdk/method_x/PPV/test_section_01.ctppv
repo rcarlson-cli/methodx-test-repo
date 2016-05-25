@@ -8,7 +8,7 @@
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="1"/>
             <Property name="group" value="nogroup1"/>
-            <Property name="text" value="Test"/>
+            <Property name="text" value="Test Ya?"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">

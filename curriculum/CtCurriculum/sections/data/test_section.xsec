@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Section name="Test Section" type="NON_MASTERY" problem_weight="PROGRESSIVE" locale="en_US" overlay="method_x_2pane" lesson="under-construction">
+<Section name="Test SectionYARP" type="NON_MASTERY" problem_weight="PROGRESSIVE" locale="en_US" overlay="method_x_2pane" lesson="under-construction">
     <Description></Description>
     <ProgressTracker type="PROBLEM_METER"/>
 

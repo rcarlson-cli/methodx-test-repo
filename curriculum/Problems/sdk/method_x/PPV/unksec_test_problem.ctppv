@@ -31,7 +31,7 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>1222</Value>
+                        <Value>12223</Value>
                     </Property>
                     <Property name="answer-checktype" value="_alg-equal"/>
                 </PVStructure>

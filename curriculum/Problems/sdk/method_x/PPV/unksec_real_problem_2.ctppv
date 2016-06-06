@@ -148,7 +148,7 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>0.7</Value>
+                        <Value>0.71</Value>
                     </Property>
                     <Property name="answer-checktype" value="_alg-equal-integer"/>
                 </PVStructure>
@@ -184,7 +184,7 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>0.7</Value>
+                        <Value>0.71</Value>
                     </Property>
                     <Property name="answer-checktype" value="_alg-equal-integer"/>
                 </PVStructure>
@@ -382,7 +382,7 @@
                 <PVStructure>
                     <Property name="option-type" value="_textbox"/>
                     <Property name="all answers">
-                        <Value>i</Value>
+                        <Value>i222</Value>
                     </Property>
                     <Property name="answer-checktype" value="_alg-equal"/>
                 </PVStructure>

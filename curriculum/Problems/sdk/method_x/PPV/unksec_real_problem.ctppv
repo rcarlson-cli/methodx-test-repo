@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
-    <Property name="name" value="urp2"/>
-    <Property name="lms-id" value="unksec_real_problem_2"/>
+    <Property name="name" value="urp"/>
+    <Property name="lms-id" value="unksec_real_problem"/>
     <Property name="component1">
         <ConstructionPVs>
             <Property name="type" value="TITLE"/>

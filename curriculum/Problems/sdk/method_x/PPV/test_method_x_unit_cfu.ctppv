@@ -8,7 +8,7 @@
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="1"/>
             <Property name="group" value="nogroup1"/>
-            <Property name="text" value="Check for Understanding"/>
+            <Property name="text" value="Another CFU"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
@@ -17,7 +17,7 @@
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="2"/>
             <Property name="group" value="group1"/>
-            <Property name="text" value="Sammie is driving to college. She drives at a constant speed of 60 miles per hour. She wants to know how far she will drive in 5 hours. Which proportion below is correctly set up for this situation?"/>
+            <Property name="text" value="Example"/>
         </ConstructionPVs>
     </Property>
     <Property name="component3">
@@ -31,15 +31,15 @@
                 <PVStructure>
                     <Property name="option-type" value="_inline-radio"/>
                     <Property name="choices">
-                        <Value>1+2</Value>
-                        <Value>2+3</Value>
+                        <Value>1</Value>
+                        <Value>2</Value>
                     </Property>
                     <Property name="correct-indices">
-                        <Value>1</Value>
+                        <Value>0</Value>
                     </Property>
                     <Property name="explanations">
-                        <Value>whatev</Value>
-                        <Value>whatev</Value>
+                        <Value>whateverjit</Value>
+                        <Value>whateverjit</Value>
                     </Property>
                 </PVStructure>
             </Property>

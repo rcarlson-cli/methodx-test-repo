@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
+    <Property name="name" value="ucht"/>
+    <Property name="lms-id" value="unksec_cliproblem_hi_there"/>
+    <Property name="component1">
+        <ConstructionPVs>
+            <Property name="type" value="SCENARIO_IMAGE"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="1"/>
+            <Property name="group" value="nogroup1"/>
+            <Property name="content" value="classifying_angles_02-sort.svg"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component2">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="2"/>
+            <Property name="group" value="nogroup2"/>
+            <Property name="text" value="FIBs can display text and widgets"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component3">
+        <ConstructionPVs>
+            <Property name="type" value="SCENARIO_VIDEO"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="3"/>
+            <Property name="group" value="nogroup3"/>
+            <Property name="content" value="cliproblem_hi_there.mp4"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component4">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_MATH_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="4"/>
+            <Property name="group" value="nogroup4"/>
+            <Property name="text" value="x=\class{widget 1}{}-\frac{1}{2}+23456"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="all answers">
+                        <Value>123</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-equal"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component5">
+        <ConstructionPVs>
+            <Property name="type" value="SORTING_TASK"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="5"/>
+            <Property name="group" value="nogroup5"/>
+            <Property name="accept-multiple-items" value="True"/>
+            <Property name="is-conjoined" value="True"/>
+            <Property name="is-items-on-top" value="True"/>
+            <Property name="items">
+                <PVStructure>
+                    <Property name="display-name" value="item&amp;nbsp;1"/>
+                    <Property name="destination" value="CONT-1"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="display-name" value="item&amp;nbsp;2"/>
+                    <Property name="destination" value="CONT-1"/>
+                </PVStructure>
+            </Property>
+            <Property name="containers">
+                <PVStructure>
+                    <Property name="container-id" value="CONT-1"/>
+                    <Property name="display-name" value="bucket&amp;nbsp;1"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+</ProblemMetaData>

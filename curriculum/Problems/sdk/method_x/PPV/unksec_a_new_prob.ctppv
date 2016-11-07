@@ -68,13 +68,4 @@
             </Property>
         </ConstructionPVs>
     </Property>
-    <Property name="component5">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="5"/>
-            <Property name="group" value="group2"/>
-            <Property name="text" value="Enter text here"/>
-        </ConstructionPVs>
-    </Property>
 </ProblemMetaData>

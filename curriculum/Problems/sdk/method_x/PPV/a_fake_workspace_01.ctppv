@@ -54,22 +54,8 @@
                             <Property name="value" value="how"/>
                         </PVStructure>
                         <PVStructure>
-                            <Property name="format" value="_math-fib"/>
-                            <Property name="value">
-                                <ConstructionPVs>
-                                    <Property name="type" value="METHOD_X_MATH_FIB"/>
-                                    <Property name="text" value="1+\class{widget 1}{}"/>
-                                    <Property name="option1">
-                                        <PVStructure>
-                                            <Property name="option-type" value="_textbox"/>
-                                            <Property name="all answers">
-                                                <Value>123</Value>
-                                            </Property>
-                                            <Property name="answer-checktype" value="_alg-equal"/>
-                                        </PVStructure>
-                                    </Property>
-                                </ConstructionPVs>
-                            </Property>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="&lt;latex&gt;1+b&lt;/latex&gt;"/>
                         </PVStructure>
                         <PVStructure>
                             <Property name="format" value="_text"/>

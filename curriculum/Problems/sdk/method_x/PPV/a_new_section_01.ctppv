@@ -35,7 +35,7 @@
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="4"/>
             <Property name="group" value="nogroup2"/>
-            <Property name="content" value="dsplay_numerical_data.html"/>
+            <Property name="content" value="exploring_symmetry_on_the_coordinate_plane_01.html"/>
         </ConstructionPVs>
     </Property>
     <Property name="component5">

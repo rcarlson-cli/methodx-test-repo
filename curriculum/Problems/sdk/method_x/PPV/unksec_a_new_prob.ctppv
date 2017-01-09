@@ -52,6 +52,11 @@
                         <Value>\frac{1}{2}</Value>
                     </Property>
                     <Property name="answer-checktype" value="_alg-equal"/>
+                    <Property name="hints">
+                        <Value>hint 1</Value>
+                        <Value>hint B</Value>
+                        <Value>hint THREE</Value>
+                    </Property>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

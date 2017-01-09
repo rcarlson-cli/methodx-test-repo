@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
-    <Property name="name" value="ans01"/>
-    <Property name="lms-id" value="a_new_section_01"/>
+    <Property name="name" value="ans02"/>
+    <Property name="lms-id" value="a_new_section_02"/>
     <Property name="component1">
         <ConstructionPVs>
             <Property name="type" value="TITLE"/>

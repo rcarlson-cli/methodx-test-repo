@@ -4,85 +4,20 @@
     <Property name="lms-id" value="a_new_section_01"/>
     <Property name="component1">
         <ConstructionPVs>
-            <Property name="type" value="TITLE"/>
+            <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="1"/>
             <Property name="group" value="nogroup1"/>
-            <Property name="text" value="Enter text here"/>
+            <Property name="text" value=""/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
         <ConstructionPVs>
             <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
+            <Property name="tutor" value="FIB"/>
             <Property name="order" value="2"/>
-            <Property name="group" value="group1"/>
-            <Property name="text" value="and here's a glossary entry for percent!"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component3">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="3"/>
-            <Property name="group" value="group1"/>
-            <Property name="text" value="hello &lt;glossary term=&quot;absolute-value&quot;&gt;absolute value&lt;/glossary&gt; are you? &lt;glossary term=&quot;45-45-90-right-triangle&quot;&gt;45-45-90&lt;/glossary&gt;. &lt;glossary term=&quot;algebraic-expression&quot;&gt;adjacent sides!&lt;/glossary&gt;"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component4">
-        <ConstructionPVs>
-            <Property name="type" value="SCENARIO_URL"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="4"/>
             <Property name="group" value="nogroup2"/>
-            <Property name="content" value="exploring_symmetry_on_the_coordinate_plane_01.html"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component5">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="5"/>
-            <Property name="group" value="group2"/>
-            <Property name="text" value="FIBs can display text and widgets"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component6">
-        <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="6"/>
-            <Property name="group" value="group3"/>
-            <Property name="text" value="FIBs can display text and widgets"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component7">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="7"/>
-            <Property name="group" value="group3"/>
-            <Property name="text" value="{{1}}"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="all answers">
-                        <Value>\frac{1}{3}</Value>
-                    </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                    <Property name="hints">
-                        <Value>hint 1</Value>
-                        <Value>hint B</Value>
-                        <Value>hint THREE</Value>
-                    </Property>
-                    <Property name="jits">
-                        <PVStructure>
-                            <Property name="text" value="eek"/>
-                            <Property name="answer" value="\frac{1}{4}"/>
-                        </PVStructure>
-                    </Property>
-                </PVStructure>
-            </Property>
+            <Property name="text" value=""/>
         </ConstructionPVs>
     </Property>
 </ProblemMetaData>

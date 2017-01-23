@@ -4,20 +4,58 @@
     <Property name="lms-id" value="a_new_section_01"/>
     <Property name="component1">
         <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
+            <Property name="type" value="TITLE"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="1"/>
             <Property name="group" value="nogroup1"/>
-            <Property name="text" value=""/>
+            <Property name="text" value="Title Here!"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
         <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="FIB"/>
+            <Property name="type" value="Instruction"/>
+            <Property name="tutor" value="Scenario"/>
             <Property name="order" value="2"/>
             <Property name="group" value="nogroup2"/>
-            <Property name="text" value=""/>
+            <Property name="text" value="Time for some instruction"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component3">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="3"/>
+            <Property name="group" value="group1"/>
+            <Property name="text" value="And now for something com&lt;sub&gt;pletely&lt;/sub&gt; different (this is regultext)"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component4">
+        <ConstructionPVs>
+            <Property name="type" value="SCENARIO_IMAGE"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="4"/>
+            <Property name="group" value="nogroup3"/>
+            <Property name="annotation" value=""/>
+            <Property name="annotation-side" value="right"/>
+            <Property name="content" value="classifying_polygons_6-sort.svg"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component5">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="5"/>
+            <Property name="group" value="group2"/>
+            <Property name="text" value="This is a cloze problem. What is two plus two? {{1}}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="all answers">
+                        <Value>12</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-equal"/>
+                </PVStructure>
+            </Property>
         </ConstructionPVs>
     </Property>
 </ProblemMetaData>

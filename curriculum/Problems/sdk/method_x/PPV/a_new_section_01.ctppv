@@ -26,7 +26,7 @@
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="3"/>
             <Property name="group" value="group1"/>
-            <Property name="text" value="And now for something com&lt;sub&gt;pletely&lt;/sub&gt; different (this is regultext)"/>
+            <Property name="text" value="And now for something com&lt;sub&gt;pletely&lt;/sub&gt; diff&lt;sup&gt;erent&lt;/sup&gt; (this is regultext)"/>
         </ConstructionPVs>
     </Property>
     <Property name="component4">

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Section name="a new section" type="NON_MASTERY" problem_weight="PROGRESSIVE" locale="en_US" overlay="method_x_1pane" lesson="under-construction">
+    <Description>None</Description>
+    <ProgressTracker type="PROBLEM_METER"/>
+
+    <ProblemSetWrapper selector="ORDERED">
+        <ToolLayout><![CDATA[{"id": "MethodXFIBTool", "weight": "100%"}]]></ToolLayout>
+        
+        <ToolSpec tre_id="MethodXFIBTool" display_name="Questions" type="methodXTool2" tool_implementation_class="ctp-question-and-answer-tool">
+            <SetOptions/>
+        </ToolSpec>
+        
+        <ProblemSet>
+            <SelectionAlgo type="REQUIRED" impl_class="Random"/>
+            <ExitCriterion impl_class="cl.services.ct.sectiondata.knowledgetracing.ProblemSetCountCriterion">
+                <AttValue attribute="count" value="1"/>
+            </ExitCriterion>
+            
+            <ExitCriterion impl_class="cl.services.ct.sectiondata.knowledgetracing.TotalProblemCountCriterion">
+                <AttValue attribute="count" value="1"/>
+            </ExitCriterion>
+            
+            <Problem problem_id="a_new_section_abc_01"/>
+        </ProblemSet>
+        
+    </ProblemSetWrapper>
+</Section>

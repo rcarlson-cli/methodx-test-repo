@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
+    <Property name="name" value="ansa01"/>
+    <Property name="lms-id" value="a_new_section_abc_01"/>
+    <Property name="component1">
+        <ConstructionPVs>
+            <Property name="type" value="TITLE"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="1"/>
+            <Property name="group" value="nogroup1"/>
+            <Property name="text" value="A Problem"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component2">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="2"/>
+            <Property name="group" value="group1"/>
+            <Property name="text" value="Eeeeek"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component3">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="3"/>
+            <Property name="group" value="group1"/>
+            <Property name="text" value="Mmm hmmm"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component4">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="4"/>
+            <Property name="group" value="group1"/>
+            <Property name="text" value="Hello there"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component5">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="5"/>
+            <Property name="group" value="group1"/>
+            <Property name="text" value="Ya, right?"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component6">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="6"/>
+            <Property name="group" value="group2"/>
+            <Property name="text" value="How are you?{{1}}Hi"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="should-replace" value="True"/>
+                    <Property name="all answers">
+                        <Value>2</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-equal"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component7">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="7"/>
+            <Property name="group" value="group2"/>
+            <Property name="text" value="mmk"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component8">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="8"/>
+            <Property name="group" value="group3"/>
+            <Property name="text" value="How are ya? {{1}} Hey"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="should-replace" value="True"/>
+                    <Property name="all answers">
+                        <Value>2</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-equal"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component9">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="9"/>
+            <Property name="group" value="group3"/>
+            <Property name="text" value="How are ya doin ya?"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component10">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_MATH_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="10"/>
+            <Property name="group" value="nogroup2"/>
+            <Property name="text" value="1+2=\class{widget 1}{}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="all answers">
+                        <Value>3</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-equal"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component11">
+        <ConstructionPVs>
+            <Property name="type" value="SCENARIO_IMAGE"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="11"/>
+            <Property name="group" value="nogroup3"/>
+            <Property name="content" value="test_problem_01.png"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component12">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="12"/>
+            <Property name="group" value="nogroup4"/>
+            <Property name="text" value=""/>
+        </ConstructionPVs>
+    </Property>
+</ProblemMetaData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
+    <Property name="name" value="utp"/>
+    <Property name="lms-id" value="unksec_test_prob"/>
+    <Property name="component1">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="1"/>
+            <Property name="group" value="group1"/>
+            <Property name="text" value="FIBs can display text and widgets {{1}}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="should-replace" value="False"/>
+                    <Property name="all answers">
+                        <Value>abc</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-equal"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component2">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="2"/>
+            <Property name="group" value="nogroup1"/>
+            <Property name="text" value=""/>
+        </ConstructionPVs>
+    </Property>
+</ProblemMetaData>

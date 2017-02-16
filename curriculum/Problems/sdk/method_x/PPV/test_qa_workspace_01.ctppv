@@ -8,7 +8,7 @@
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="1"/>
             <Property name="group" value="nogroup1"/>
-            <Property name="text" value="&lt;ul&gt;&lt;li&gt;hello&lt;/li&gt;&lt;li&gt;there&lt;ul&gt; &lt;li&gt;how&lt;/li&gt; &lt;li&gt;are&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;you?&lt;/li&gt;&lt;/ul&gt;"/>
+            <Property name="text" value="&lt;ul&gt;&lt;li&gt;hello&lt;/li&gt;&lt;li&gt;there&lt;ul&gt; &lt;li&gt;how&lt;/li&gt; &lt;li&gt;are&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;ayou?&lt;/li&gt;&lt;/ul&gt;"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">

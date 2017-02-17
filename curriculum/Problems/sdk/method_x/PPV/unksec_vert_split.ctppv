@@ -5,7 +5,7 @@
     <Property name="component1">
         <ConstructionPVs>
             <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
+            <Property name="tutor" value="Scenario"/>
             <Property name="order" value="1"/>
             <Property name="group" value="group1"/>
             <Property name="text" value="FIBs can display text and widgets {{1}}"/>
@@ -33,14 +33,67 @@
     </Property>
     <Property name="component2">
         <ConstructionPVs>
-            <Property name="type" value="SORTING_TASK"/>
-            <Property name="tutor" value="FIB"/>
+            <Property name="type" value="METHOD_X_WORKSHEET"/>
+            <Property name="tutor" value="Scenario"/>
             <Property name="order" value="2"/>
             <Property name="group" value="nogroup1"/>
+            <Property name="columns">
+                <PVStructure>
+                    <Property name="heading" value="Hello"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="heading" value="There"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="heading" value="Friend"/>
+                </PVStructure>
+            </Property>
+            <Property name="rows">
+                <PVStructure>
+                    <Property name="cells">
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="how"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="are"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="you"/>
+                        </PVStructure>
+                    </Property>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="cells">
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="doing"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="there"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="ya?"/>
+                        </PVStructure>
+                    </Property>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component3">
+        <ConstructionPVs>
+            <Property name="type" value="SORTING_TASK"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="3"/>
+            <Property name="group" value="nogroup2"/>
             <Property name="accept-multiple-items" value="True"/>
             <Property name="is-conjoined" value="False"/>
             <Property name="is-items-on-top" value="True"/>
-            <Property name="ordered-task" value="False"/>
+            <Property name="ordered-task" value="True"/>
             <Property name="items">
                 <PVStructure>
                     <Property name="display-name" value="item&amp;nbsp;1.1"/>

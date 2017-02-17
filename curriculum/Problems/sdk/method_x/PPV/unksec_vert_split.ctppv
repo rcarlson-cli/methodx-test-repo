@@ -8,33 +8,24 @@
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="1"/>
             <Property name="group" value="nogroup1"/>
-            <Property name="text" value="Title Here!"/>
+            <Property name="text" value="Some text with an interactive worksheet"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
         <ConstructionPVs>
-            <Property name="type" value="Instruction"/>
+            <Property name="type" value="INTRODUCTION"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="2"/>
             <Property name="group" value="nogroup2"/>
-            <Property name="text" value="Time for some instruction"/>
+            <Property name="text" value="See the other pane --&amp;gt;"/>
         </ConstructionPVs>
     </Property>
     <Property name="component3">
         <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
-            <Property name="tutor" value="Scenario"/>
-            <Property name="order" value="3"/>
-            <Property name="group" value="nogroup3"/>
-            <Property name="text" value="And now for something completely different (this is regular text)"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component4">
-        <ConstructionPVs>
             <Property name="type" value="METHOD_X_WORKSHEET"/>
             <Property name="tutor" value="FIB"/>
-            <Property name="order" value="4"/>
-            <Property name="group" value="nogroup4"/>
+            <Property name="order" value="3"/>
+            <Property name="group" value="nogroup3"/>
             <Property name="columns">
                 <PVStructure>
                     <Property name="heading" value="Col 1"/>

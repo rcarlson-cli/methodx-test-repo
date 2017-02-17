@@ -4,48 +4,46 @@
     <Property name="lms-id" value="unksec_vert_split"/>
     <Property name="component1">
         <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
+            <Property name="type" value="TITLE"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="1"/>
-            <Property name="group" value="group1"/>
-            <Property name="text" value="FIBs can display text and widgets {{1}}"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="should-replace" value="False"/>
-                    <Property name="all answers">
-                        <Value>12</Value>
-                    </Property>
-                    <Property name="answer-checktype" value="_alg-equal"/>
-                    <Property name="jits">
-                        <PVStructure>
-                            <Property name="text" value="fdsa"/>
-                            <Property name="answer" value="123"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="asdf"/>
-                            <Property name="answer" value="321"/>
-                        </PVStructure>
-                    </Property>
-                </PVStructure>
-            </Property>
+            <Property name="group" value="nogroup1"/>
+            <Property name="text" value="Title Here!"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
         <ConstructionPVs>
-            <Property name="type" value="METHOD_X_WORKSHEET"/>
+            <Property name="type" value="Instruction"/>
             <Property name="tutor" value="Scenario"/>
             <Property name="order" value="2"/>
-            <Property name="group" value="nogroup1"/>
+            <Property name="group" value="nogroup2"/>
+            <Property name="text" value="Time for some instruction"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component3">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="Scenario"/>
+            <Property name="order" value="3"/>
+            <Property name="group" value="nogroup3"/>
+            <Property name="text" value="And now for something completely different (this is regular text)"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component4">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_WORKSHEET"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="4"/>
+            <Property name="group" value="nogroup4"/>
             <Property name="columns">
                 <PVStructure>
-                    <Property name="heading" value="Hello"/>
+                    <Property name="heading" value="Col 1"/>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="heading" value="There"/>
+                    <Property name="heading" value="Col 2"/>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="heading" value="Friend"/>
+                    <Property name="heading" value="Col 3"/>
                 </PVStructure>
             </Property>
             <Property name="rows">
@@ -53,7 +51,7 @@
                     <Property name="cells">
                         <PVStructure>
                             <Property name="format" value="_text"/>
-                            <Property name="value" value="how"/>
+                            <Property name="value" value="text1"/>
                         </PVStructure>
                         <PVStructure>
                             <Property name="format" value="_fib"/>
@@ -66,9 +64,14 @@
                                             <Property name="option-type" value="_textbox"/>
                                             <Property name="should-replace" value="False"/>
                                             <Property name="all answers">
-                                                <Value>1</Value>
+                                                <Value>\frac{1}{2}</Value>
                                             </Property>
                                             <Property name="answer-checktype" value="_alg-equal"/>
+                                            <Property name="hints">
+                                                <Value>it's one half</Value>
+                                                <Value>i'm not kidding - it's &lt;latex&gt;\frac{1}{2}&lt;/latex&gt;</Value>
+                                                <Value>Type 1/2</Value>
+                                            </Property>
                                         </PVStructure>
                                     </Property>
                                 </ConstructionPVs>
@@ -76,7 +79,7 @@
                         </PVStructure>
                         <PVStructure>
                             <Property name="format" value="_text"/>
-                            <Property name="value" value="you"/>
+                            <Property name="value" value="text2"/>
                         </PVStructure>
                     </Property>
                 </PVStructure>
@@ -84,20 +87,20 @@
                     <Property name="cells">
                         <PVStructure>
                             <Property name="format" value="_text"/>
-                            <Property name="value" value="doing"/>
+                            <Property name="value" value="text3"/>
                         </PVStructure>
                         <PVStructure>
                             <Property name="format" value="_fib"/>
                             <Property name="value">
                                 <ConstructionPVs>
                                     <Property name="type" value="METHOD_X_FIB"/>
-                                    <Property name="text" value="there {{1}}"/>
+                                    <Property name="text" value="text with widget: {{1}}"/>
                                     <Property name="option1">
                                         <PVStructure>
                                             <Property name="option-type" value="_dropdown"/>
                                             <Property name="choices">
-                                                <Value>1</Value>
-                                                <Value>2</Value>
+                                                <Value>Correct Answer</Value>
+                                                <Value>Incorrect</Value>
                                             </Property>
                                             <Property name="correct-indices">
                                                 <Value>0</Value>
@@ -109,98 +112,9 @@
                         </PVStructure>
                         <PVStructure>
                             <Property name="format" value="_text"/>
-                            <Property name="value" value="ya?"/>
+                            <Property name="value" value="text4"/>
                         </PVStructure>
                     </Property>
-                </PVStructure>
-            </Property>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component3">
-        <ConstructionPVs>
-            <Property name="type" value="SORTING_TASK"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="3"/>
-            <Property name="group" value="nogroup2"/>
-            <Property name="accept-multiple-items" value="True"/>
-            <Property name="is-conjoined" value="False"/>
-            <Property name="is-items-on-top" value="True"/>
-            <Property name="ordered-task" value="True"/>
-            <Property name="items">
-                <PVStructure>
-                    <Property name="display-name" value="item&amp;nbsp;1.1"/>
-                    <Property name="destination" value="CONT-1"/>
-                    <Property name="hints">
-                        <Value>hint 1.1.1</Value>
-                        <Value>hint 1.1.2</Value>
-                        <Value>hint 1.1.3</Value>
-                    </Property>
-                    <Property name="jits">
-                        <PVStructure>
-                            <Property name="text" value="not bucket 2"/>
-                            <Property name="answer" value="CONT-2"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="WRONG"/>
-                            <Property name="answer" value="CONT-1"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="WRONG"/>
-                            <Property name="answer" value="CONT-3"/>
-                        </PVStructure>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="item&amp;nbsp;1.2"/>
-                    <Property name="destination" value="CONT-1"/>
-                    <Property name="hints">
-                        <Value>hint 1.2.1</Value>
-                        <Value>hint 1.2.2</Value>
-                        <Value>hint 1.2.3</Value>
-                    </Property>
-                    <Property name="jits">
-                        <PVStructure>
-                            <Property name="text" value="DEFINITELY not bucket 2"/>
-                            <Property name="answer" value="CONT-2"/>
-                        </PVStructure>
-                    </Property>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="display-name" value="item&amp;nbsp;2.1"/>
-                    <Property name="destination" value="CONT-2"/>
-                    <Property name="hints">
-                        <Value>hint 2.1.1</Value>
-                        <Value>hint 2.1.2</Value>
-                        <Value>hint 2.1.3</Value>
-                    </Property>
-                    <Property name="jits">
-                        <PVStructure>
-                            <Property name="text" value="eek"/>
-                            <Property name="answer" value="CONT-1"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="eek"/>
-                            <Property name="answer" value="CONT-3"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="text" value="eek"/>
-                            <Property name="answer" value="CONT-2"/>
-                        </PVStructure>
-                    </Property>
-                </PVStructure>
-            </Property>
-            <Property name="containers">
-                <PVStructure>
-                    <Property name="container-id" value="CONT-1"/>
-                    <Property name="display-name" value="bucket&amp;nbsp;1"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="container-id" value="CONT-2"/>
-                    <Property name="display-name" value="bucket&amp;nbsp;2"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="container-id" value="CONT-3"/>
-                    <Property name="display-name" value="None of these"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

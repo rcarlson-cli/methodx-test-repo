@@ -22,6 +22,10 @@
                             <Property name="text" value="fdsa"/>
                             <Property name="answer" value="123"/>
                         </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="asdf"/>
+                            <Property name="answer" value="321"/>
+                        </PVStructure>
                     </Property>
                 </PVStructure>
             </Property>
@@ -46,14 +50,34 @@
                         <Value>hint 1.1.2</Value>
                         <Value>hint 1.1.3</Value>
                     </Property>
+                    <Property name="jits">
+                        <PVStructure>
+                            <Property name="text" value="not bucket 2"/>
+                            <Property name="answer" value="CONT-2"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="WRONG"/>
+                            <Property name="answer" value="CONT-1"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="WRONG"/>
+                            <Property name="answer" value="CONT-3"/>
+                        </PVStructure>
+                    </Property>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="display-name" value="item&amp;nbsp;&amp;nbsp;1.2"/>
+                    <Property name="display-name" value="item&amp;nbsp;1.2"/>
                     <Property name="destination" value="CONT-1"/>
                     <Property name="hints">
                         <Value>hint 1.2.1</Value>
                         <Value>hint 1.2.2</Value>
                         <Value>hint 1.2.3</Value>
+                    </Property>
+                    <Property name="jits">
+                        <PVStructure>
+                            <Property name="text" value="DEFINITELY not bucket 2"/>
+                            <Property name="answer" value="CONT-2"/>
+                        </PVStructure>
                     </Property>
                 </PVStructure>
                 <PVStructure>
@@ -63,6 +87,20 @@
                         <Value>hint 2.1.1</Value>
                         <Value>hint 2.1.2</Value>
                         <Value>hint 2.1.3</Value>
+                    </Property>
+                    <Property name="jits">
+                        <PVStructure>
+                            <Property name="text" value="eek"/>
+                            <Property name="answer" value="CONT-1"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="eek"/>
+                            <Property name="answer" value="CONT-3"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="text" value="eek"/>
+                            <Property name="answer" value="CONT-2"/>
+                        </PVStructure>
                     </Property>
                 </PVStructure>
             </Property>
@@ -74,6 +112,10 @@
                 <PVStructure>
                     <Property name="container-id" value="CONT-2"/>
                     <Property name="display-name" value="bucket&amp;nbsp;2"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="container-id" value="CONT-3"/>
+                    <Property name="display-name" value="None of these"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

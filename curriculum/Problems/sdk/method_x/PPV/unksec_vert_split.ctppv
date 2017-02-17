@@ -56,8 +56,23 @@
                             <Property name="value" value="how"/>
                         </PVStructure>
                         <PVStructure>
-                            <Property name="format" value="_text"/>
-                            <Property name="value" value="are"/>
+                            <Property name="format" value="_fib"/>
+                            <Property name="value">
+                                <ConstructionPVs>
+                                    <Property name="type" value="METHOD_X_FIB"/>
+                                    <Property name="text" value="{{1}}"/>
+                                    <Property name="option1">
+                                        <PVStructure>
+                                            <Property name="option-type" value="_textbox"/>
+                                            <Property name="should-replace" value="False"/>
+                                            <Property name="all answers">
+                                                <Value>1</Value>
+                                            </Property>
+                                            <Property name="answer-checktype" value="_alg-equal"/>
+                                        </PVStructure>
+                                    </Property>
+                                </ConstructionPVs>
+                            </Property>
                         </PVStructure>
                         <PVStructure>
                             <Property name="format" value="_text"/>

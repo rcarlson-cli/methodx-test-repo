@@ -87,8 +87,25 @@
                             <Property name="value" value="doing"/>
                         </PVStructure>
                         <PVStructure>
-                            <Property name="format" value="_text"/>
-                            <Property name="value" value="there"/>
+                            <Property name="format" value="_fib"/>
+                            <Property name="value">
+                                <ConstructionPVs>
+                                    <Property name="type" value="METHOD_X_FIB"/>
+                                    <Property name="text" value="there {{1}}"/>
+                                    <Property name="option1">
+                                        <PVStructure>
+                                            <Property name="option-type" value="_dropdown"/>
+                                            <Property name="choices">
+                                                <Value>1</Value>
+                                                <Value>2</Value>
+                                            </Property>
+                                            <Property name="correct-indices">
+                                                <Value>0</Value>
+                                            </Property>
+                                        </PVStructure>
+                                    </Property>
+                                </ConstructionPVs>
+                            </Property>
                         </PVStructure>
                         <PVStructure>
                             <Property name="format" value="_text"/>

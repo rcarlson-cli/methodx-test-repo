@@ -3,13 +3,69 @@
   <Property name="lms-id" value="unksec_horiz_split"/>
   <Property name="component1">
     <ConstructionPVs>
-      <Property name="type" value="SCENARIO_IMAGE"/>
+      <Property name="type" value="DIAGRAM"/>
       <Property name="tutor" value="FIB"/>
       <Property name="order" value="1"/>
       <Property name="group" value="nogroup1"/>
-      <Property name="annotation" value=""/>
-      <Property name="annotation-side" value="right"/>
-      <Property name="content" value="adding_subtracting_decimals_1b.svg"/>
+      <Property name="mode" value="hotspot"/>
+      <Property name="selection-mode" value="_any"/>
+      <Property name="dgxml">
+<![CDATA[
+<dg-abstractdiagram dg-id="temp-id" relativeRotationValue="180" rotationValue="0">
+  <dg-diagramelements numPoints="12">
+    <dg-point dg-id="_bounds-1" ignore="false" selectable="false" visible="false" x="0" y="0"/>
+    <dg-point dg-id="_bounds-2" ignore="false" selectable="false" visible="false" x="0" y="8"/>
+    <dg-point dg-id="_bounds-3" ignore="false" selectable="false" visible="false" x="7" y="0"/>
+    <dg-point dg-id="_bounds-4" ignore="false" selectable="false" visible="false" x="7" y="8"/>
+    <dg-point dg-id="p-1" ignore="false" label="A" selectable="true" visible="true" x="6" y="7"/>
+    <dg-point dg-id="p-2" ignore="false" label="B" selectable="false" visible="true" x="4.35" y="5"/>
+    <dg-point dg-id="p-3" ignore="false" label="C" selectable="false" visible="true" x="6" y="5"/>
+    <dg-point dg-id="p-4" ignore="false" label="D" selectable="false" visible="true" x="1" y="5"/>
+    <dg-point dg-id="p-5" ignore="false" label="E" selectable="false" visible="true" x="1" y="3"/>
+    <dg-point dg-id="p-6" ignore="false" label="F" selectable="false" visible="true" x="2.68" y="3"/>
+    <dg-point dg-id="p-7" ignore="false" label="G" selectable="false" visible="true" x="6" y="3"/>
+    <dg-point dg-id="p-8" ignore="false" label="H" selectable="false" visible="true" x="1" y="1"/>
+    <dg-angle dg-id="angle-1" ignore="false" point1="p-1" point2="p-3" selectable="true" vertex="p-2" visible="true"/>
+    <dg-angle dg-id="angle-2" ignore="false" point1="p-5" point2="p-8" selectable="true" vertex="p-6" visible="true"/>
+    <dg-angle dg-id="angle-3" ignore="false" point1="p-6" point2="p-3" selectable="true" vertex="p-2" visible="true"/>
+    <dg-angle dg-id="angle.auto-1" ignore="false" point1="p-2" point2="p-4" selectable="false" vertex="p-1" visible="true"/>
+    <dg-angle dg-id="angle.auto-2" ignore="false" point1="p-1" point2="p-4" selectable="false" vertex="p-2" visible="true"/>
+    <dg-angle dg-id="angle.auto-3" ignore="false" point1="p-1" point2="p-2" selectable="false" vertex="p-4" visible="true"/>
+    <dg-segment dg-id="seg-1" ignore="false" point1="p-8" point2="p-1" selectable="false" visible="true"/>
+    <dg-segment dg-id="seg-2" ignore="false" point1="p-5" point2="p-7" selectable="false" visible="true"/>
+    <dg-segment dg-id="seg-3" ignore="false" point1="p-4" point2="p-3" selectable="false" visible="true"/>
+    <dg-segment dg-id="seg.auto-1" ignore="false" point1="p-1" point2="p-2" selectable="false" visible="true"/>
+    <dg-segment dg-id="seg.auto-2" ignore="false" point1="p-1" point2="p-4" selectable="false" visible="true"/>
+    <dg-segment dg-id="seg.auto-3" ignore="false" point1="p-2" point2="p-4" selectable="false" visible="true"/>
+    <dg-triangle angle1="angle.auto-1" angle2="angle.auto-2" angle3="angle.auto-3" dg-id="tri-1" ignore="false" selectable="false" side1="seg.auto-1" side2="seg.auto-2" side3="seg.auto-3" visible="true"/>
+  </dg-diagramelements>
+  <dg-diagramrelations/>
+</dg-abstractdiagram>
+]]>
+</Property>
+      <Property name="correct-selections">
+        <PVStructure>
+          <Property name="entity-id" value="p-1"/>
+          <Property name="hints">
+            <Value>asdf</Value>
+            <Value>fdsa</Value>
+          </Property>
+        </PVStructure>
+      </Property>
+      <Property name="incorrect-selections">
+        <PVStructure/>
+        <PVStructure/>
+        <PVStructure/>
+      </Property>
+    </ConstructionPVs>
+  </Property>
+  <Property name="component2">
+    <ConstructionPVs>
+      <Property name="type" value="INTRODUCTION"/>
+      <Property name="tutor" value="FIB"/>
+      <Property name="order" value="2"/>
+      <Property name="group" value="group1"/>
+      <Property name="text" value="FIBs can display text and &lt;glossary term=&quot;45-45-90-leg&quot;&gt;widgetsasdf&lt;/glossary&gt;"/>
     </ConstructionPVs>
   </Property>
 </ProblemMetaData>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
+    <Property name="name" value="tqw03"/>
+    <Property name="lms-id" value="test_qa_workspace_03"/>
+    <Property name="component1">
+        <ConstructionPVs>
+            <Property name="type" value="TITLE"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="1"/>
+            <Property name="group" value="nogroup1"/>
+            <Property name="text" value="Sample Grapher Hotspot Problem"/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component2">
+        <ConstructionPVs>
+            <Property name="type" value="GRAPH"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="2"/>
+            <Property name="group" value="nogroup2"/>
+            <Property name="mode" value="static"/>
+            <Property name="x-axis">
+                <PVStructure>
+                    <Property name="upper-bound" value="5"/>
+                    <Property name="lower-bound" value="-5"/>
+                    <Property name="interval" value="1"/>
+                    <Property name="decimal-places" value="0"/>
+                    <Property name="minor-tick-count" value="0"/>
+                </PVStructure>
+            </Property>
+            <Property name="y-axis">
+                <PVStructure>
+                    <Property name="upper-bound" value="5"/>
+                    <Property name="lower-bound" value="-5"/>
+                    <Property name="interval" value="1"/>
+                    <Property name="decimal-places" value="0"/>
+                    <Property name="minor-tick-count" value="0"/>
+                </PVStructure>
+            </Property>
+            <Property name="curves">
+                <PVStructure>
+                    <Property name="id" value="crv-1"/>
+                    <Property name="expression" value="y=4*sin(x)"/>
+                    <Property name="curve-type" value="_sine"/>
+                    <Property name="style" value="SOLID"/>
+                    <Property name="color" value="NON_INTERACTIVE_1"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="id" value="crv-2"/>
+                    <Property name="expression" value="y=4*cos(x)"/>
+                    <Property name="curve-type" value="_cosine"/>
+                    <Property name="style" value="SOLID"/>
+                    <Property name="color" value="NON_INTERACTIVE_1"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="id" value="crv-3"/>
+                    <Property name="expression" value="y=|x|"/>
+                    <Property name="curve-type" value="_absolute_value"/>
+                    <Property name="style" value="DASHED"/>
+                    <Property name="color" value="NON_INTERACTIVE_4"/>
+                </PVStructure>
+            </Property>
+            <Property name="points">
+                <PVStructure>
+                    <Property name="id" value="p-1"/>
+                    <Property name="x" value="1"/>
+                    <Property name="y" value="2"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+</ProblemMetaData>

@@ -4,11 +4,24 @@
     <Property name="lms-id" value="test_section_02"/>
     <Property name="component1">
         <ConstructionPVs>
-            <Property name="type" value="INTRODUCTION"/>
+            <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="1"/>
-            <Property name="group" value="nogroup1"/>
-            <Property name="text" value="Enter text here &lt;latex&gt;\frac{1}{2}+\sqrt{3+4}&lt;/latex&gt; asdf &lt;latex&gt;\frac{123}{2\&amp;amp;2}&lt;/latex&gt;"/>
+            <Property name="group" value="group1"/>
+            <Property name="text" value="FIBs can display text and widgets {{1}}"/>
+            <Property name="option1">
+                <PVStructure>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="should-replace" value="False"/>
+                    <Property name="all answers">
+                        <Value>1</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-equal"/>
+                    <Property name="hints">
+                        <Value>abc &lt;literal&gt;def&lt;/literal&gt;</Value>
+                    </Property>
+                </PVStructure>
+            </Property>
         </ConstructionPVs>
     </Property>
 </ProblemMetaData>

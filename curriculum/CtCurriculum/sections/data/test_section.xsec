@@ -16,20 +16,11 @@
                 <AttValue attribute="count" value="1"/>
             </ExitCriterion>
             
-            <Problem problem_id="test_section_01"/>
-        </ProblemSet>
-        
-        <ProblemSet>
-            <SelectionAlgo type="REQUIRED" impl_class="Random"/>
-            <ExitCriterion impl_class="cl.services.ct.sectiondata.knowledgetracing.ProblemSetCountCriterion">
+            <ExitCriterion impl_class="cl.services.ct.sectiondata.knowledgetracing.TotalProblemCountCriterion">
                 <AttValue attribute="count" value="1"/>
             </ExitCriterion>
             
-            <ExitCriterion impl_class="cl.services.ct.sectiondata.knowledgetracing.TotalProblemCountCriterion">
-                <AttValue attribute="count" value="2"/>
-            </ExitCriterion>
-            
-            <Problem problem_id="test_section_02"/>
+            <Problem problem_id="test_section_01"/>
         </ProblemSet>
         
     </ProblemSetWrapper>

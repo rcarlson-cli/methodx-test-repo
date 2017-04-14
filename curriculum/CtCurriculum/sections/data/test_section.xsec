@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Section name="Test Section" type="NON_MASTERY" problem_weight="PROGRESSIVE" locale="en_US" lesson="under-construction" owner="rcarlson">
+<Section name="Test Section" type="NON_MASTERY" problem_weight="PROGRESSIVE" locale="en_US" lesson="under-construction" owner="fake">
     <Description>None</Description>
     <ProgressTracker type="PROBLEM_METER"/>
 
@@ -16,20 +16,11 @@
                 <AttValue attribute="count" value="1"/>
             </ExitCriterion>
             
-            <Problem problem_id="test_section_01"/>
-        </ProblemSet>
-        
-        <ProblemSet>
-            <SelectionAlgo type="REQUIRED" impl_class="Random"/>
-            <ExitCriterion impl_class="cl.services.ct.sectiondata.knowledgetracing.ProblemSetCountCriterion">
+            <ExitCriterion impl_class="cl.services.ct.sectiondata.knowledgetracing.TotalProblemCountCriterion">
                 <AttValue attribute="count" value="1"/>
             </ExitCriterion>
             
-            <ExitCriterion impl_class="cl.services.ct.sectiondata.knowledgetracing.TotalProblemCountCriterion">
-                <AttValue attribute="count" value="2"/>
-            </ExitCriterion>
-            
-            <Problem problem_id="test_section_02"/>
+            <Problem problem_id="test_section_01"/>
         </ProblemSet>
         
     </ProblemSetWrapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
+    <Property name="name" value="urt2"/>
+    <Property name="lms-id" value="unksec_ryan_test_2"/>
+    <Property name="component1">
+        <ConstructionPVs>
+            <Property name="type" value="INTRODUCTION"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="1"/>
+            <Property name="group" value="nogroup1"/>
+            <Property name="text" value="Enter text here &lt;latex&gt;\frac{1}{2}+\sqrt{3+4}&lt;/latex&gt; asdf &lt;latex&gt;\frac{123}{2\&amp;amp;2}&lt;/latex&gt;"/>
+        </ConstructionPVs>
+    </Property>
+</ProblemMetaData>

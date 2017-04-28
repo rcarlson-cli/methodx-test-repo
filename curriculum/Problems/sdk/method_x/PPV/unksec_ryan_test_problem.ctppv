@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
+    <Property name="name" value="urtp"/>
+    <Property name="lms-id" value="unksec_ryan_test_problem"/>
+    <Property name="component1">
+        <ConstructionPVs>
+            <Property name="type" value="METHOD_X_WORKSHEET"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="1"/>
+            <Property name="group" value="nogroup1"/>
+            <Property name="columns">
+                <PVStructure>
+                    <Property name="heading" value="+"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="heading" value="1"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="heading" value="2"/>
+                </PVStructure>
+            </Property>
+            <Property name="rows">
+                <PVStructure>
+                    <Property name="label" value="3"/>
+                    <Property name="cells">
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="4"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="5"/>
+                        </PVStructure>
+                    </Property>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="label" value="6"/>
+                    <Property name="cells">
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="7"/>
+                        </PVStructure>
+                        <PVStructure>
+                            <Property name="format" value="_text"/>
+                            <Property name="value" value="8"/>
+                        </PVStructure>
+                    </Property>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+</ProblemMetaData>

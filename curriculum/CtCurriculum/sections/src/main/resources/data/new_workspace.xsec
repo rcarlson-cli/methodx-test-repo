@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Section name="new workspace" type="NON_MASTERY" problem_weight="PROGRESSIVE" locale="en_US" owner="rcarlson">
+<Section name="new wirkspace" type="NON_MASTERY" problem_weight="PROGRESSIVE" locale="en_US" owner="rcarlson">
     <Description>None</Description>
     <ProgressTracker type="PROBLEM_METER"/>
 

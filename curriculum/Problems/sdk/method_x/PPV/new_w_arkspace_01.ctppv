@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemMetaData problem_type_class="METHOD_X_FIB_MEDIA_PROBLEM">
+    <Property name="name" value="nwa01"/>
+    <Property name="lms-id" value="new_w_arkspace_01"/>
+    <Property name="component1">
+        <ConstructionPVs>
+            <Property name="type" value="GRAPH"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="1"/>
+            <Property name="group" value="nogroup1"/>
+            <Property name="mode" value="static"/>
+            <Property name="x-axis">
+                <PVStructure>
+                    <Property name="axis-name" value="x"/>
+                    <Property name="upper-bound" value="10"/>
+                    <Property name="lower-bound" value="0"/>
+                    <Property name="interval" value="1"/>
+                    <Property name="decimal-places" value="0"/>
+                    <Property name="minor-tick-count" value="0"/>
+                    <Property name="axis-label" value=""/>
+                </PVStructure>
+            </Property>
+            <Property name="y-axis">
+                <PVStructure>
+                    <Property name="axis-name" value="y"/>
+                    <Property name="upper-bound" value="10"/>
+                    <Property name="lower-bound" value="0"/>
+                    <Property name="interval" value="1"/>
+                    <Property name="decimal-places" value="0"/>
+                    <Property name="minor-tick-count" value="0"/>
+                    <Property name="axis-label" value=""/>
+                </PVStructure>
+            </Property>
+            <Property name="points">
+                <PVStructure>
+                    <Property name="id" value="p-1"/>
+                    <Property name="isvisible" value="True"/>
+                    <Property name="label" value="this is a &lt;glossary term=&quot;point&quot;&gt;point&lt;/glossary&gt;!"/>
+                    <Property name="color" value="NON_INTERACTIVE_1"/>
+                    <Property name="display-type" value="_closedPoint"/>
+                    <Property name="x" value="5"/>
+                    <Property name="y" value="5"/>
+                </PVStructure>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component2">
+        <ConstructionPVs>
+            <Property name="type" value="DIAGRAM"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="2"/>
+            <Property name="group" value="nogroup2"/>
+            <Property name="mode" value="static"/>
+            <Property name="dgxml">
+                <Value>
+<![CDATA[
+<dg-abstractdiagram dg-id="temp-id" relativeRotationValue="180" rotationValue="0">
+  <dg-diagramelements numPoints="13">
+    <dg-point dg-id="p-1" ignore="false" selectable="false" visible="true" x="20" y="20"/>
+    <dg-point dg-id="p-2" ignore="false" selectable="false" visible="false" x="20" y="40"/>
+    <dg-point dg-id="p-3" ignore="false" selectable="false" visible="false" x="20" y="0"/>
+    <dg-point dg-id="p-4" ignore="false" selectable="false" visible="false" x="0" y="20"/>
+    <dg-point dg-id="p-5" ignore="false" selectable="false" visible="false" x="40" y="20"/>
+    <dg-point dg-id="p-6" ignore="false" label="(-p, q)" selectable="false" visible="true" x="10" y="25"/>
+    <dg-point dg-id="p-7" ignore="false" label="M" selectable="false" visible="true" x="15" y="10"/>
+    <dg-point dg-id="p-8" ignore="false" selectable="false" visible="false" x="0" y="30"/>
+    <dg-point dg-id="p-9" ignore="false" selectable="false" visible="false" x="40" y="10"/>
+    <dg-point dg-id="p-10" ignore="false" selectable="false" visible="false" x="10" y="0"/>
+    <dg-point dg-id="p-11" ignore="false" selectable="false" visible="false" x="30" y="40"/>
+    <dg-point dg-id="p-12" ignore="false" label="N" selectable="false" visible="true" x="30" y="15"/>
+    <dg-point dg-id="p-13" ignore="false" label="(q, p)" selectable="false" visible="true" x="25" y="30"/>
+  </dg-diagramelements>
+  <dg-diagramrelations/>
+</dg-abstractdiagram>
+]]>
+                </Value>
+            </Property>
+        </ConstructionPVs>
+    </Property>
+</ProblemMetaData>

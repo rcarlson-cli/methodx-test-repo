@@ -4,47 +4,88 @@
     <Property name="lms-id" value="unksec_ryan_test_problem"/>
     <Property name="component1">
         <ConstructionPVs>
-            <Property name="type" value="METHOD_X_WORKSHEET"/>
+            <Property name="type" value="GRAPH"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="1"/>
             <Property name="group" value="nogroup1"/>
-            <Property name="columns">
+            <Property name="mode" value="static"/>
+            <Property name="x-axis">
                 <PVStructure>
-                    <Property name="heading" value="+"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="heading" value="1"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="heading" value="2"/>
+                    <Property name="axis-name" value="x"/>
+                    <Property name="upper-bound" value="10"/>
+                    <Property name="lower-bound" value="-5"/>
+                    <Property name="interval" value="11"/>
+                    <Property name="decimal-places" value="0"/>
+                    <Property name="minor-tick-count" value="0"/>
                 </PVStructure>
             </Property>
-            <Property name="rows">
+            <Property name="y-axis">
                 <PVStructure>
-                    <Property name="label" value="3"/>
-                    <Property name="cells">
-                        <PVStructure>
-                            <Property name="format" value="_text"/>
-                            <Property name="value" value="4"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="format" value="_text"/>
-                            <Property name="value" value="5"/>
-                        </PVStructure>
-                    </Property>
+                    <Property name="axis-name" value="y"/>
+                    <Property name="upper-bound" value="12000"/>
+                    <Property name="lower-bound" value="0"/>
+                    <Property name="interval" value="12000"/>
+                    <Property name="decimal-places" value="0"/>
+                    <Property name="minor-tick-count" value="0"/>
+                </PVStructure>
+            </Property>
+            <Property name="curves">
+                <PVStructure>
+                    <Property name="id" value="crv-1"/>
+                    <Property name="isvisible" value="True"/>
+                    <Property name="expression" value="2000(1.18)^x"/>
+                    <Property name="curve-type" value="_exponential"/>
+                    <Property name="style" value="SOLID"/>
+                    <Property name="color" value="NON_INTERACTIVE_1"/>
+                    <Property name="domain-min" value="-5"/>
+                    <Property name="domain-max" value="10"/>
+                </PVStructure>
+            </Property>
+            <Property name="points">
+                <PVStructure>
+                    <Property name="id" value="p-1"/>
+                    <Property name="isvisible" value="True"/>
+                    <Property name="label" value="h&lt;b&gt;i&lt;/b&gt; &lt;i&gt;t&lt;/i&gt;here"/>
+                    <Property name="color" value="NON_INTERACTIVE_1"/>
+                    <Property name="display-type" value="_closedPoint"/>
+                    <Property name="x" value="0"/>
+                    <Property name="y" value="2000"/>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="label" value="6"/>
-                    <Property name="cells">
-                        <PVStructure>
-                            <Property name="format" value="_text"/>
-                            <Property name="value" value="7"/>
-                        </PVStructure>
-                        <PVStructure>
-                            <Property name="format" value="_text"/>
-                            <Property name="value" value="8"/>
-                        </PVStructure>
-                    </Property>
+                    <Property name="id" value="p-2"/>
+                    <Property name="isvisible" value="True"/>
+                    <Property name="label" value="(2, 2784.80)"/>
+                    <Property name="color" value="NON_INTERACTIVE_1"/>
+                    <Property name="display-type" value="_closedPoint"/>
+                    <Property name="x" value="2"/>
+                    <Property name="y" value="2784.8"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="id" value="p-4"/>
+                    <Property name="isvisible" value="True"/>
+                    <Property name="label" value="&lt;latex&gt;(6,\quad 5399.10)&lt;/latex&gt;"/>
+                    <Property name="color" value="NON_INTERACTIVE_1"/>
+                    <Property name="display-type" value="_closedPoint"/>
+                    <Property name="x" value="6"/>
+                    <Property name="y" value="5399.1"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="id" value="p-5"/>
+                    <Property name="isvisible" value="True"/>
+                    <Property name="label" value="(8,   7517.70)"/>
+                    <Property name="color" value="NON_INTERACTIVE_1"/>
+                    <Property name="display-type" value="_closedPoint"/>
+                    <Property name="x" value="8"/>
+                    <Property name="y" value="7517.7"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="id" value="p-6"/>
+                    <Property name="isvisible" value="True"/>
+                    <Property name="label" value="(10,10468)"/>
+                    <Property name="color" value="NON_INTERACTIVE_1"/>
+                    <Property name="display-type" value="_closedPoint"/>
+                    <Property name="x" value="10"/>
+                    <Property name="y" value="10468"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

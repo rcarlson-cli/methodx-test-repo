@@ -7,14 +7,15 @@
             <Property name="type" value="GRAPH"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="1"/>
-            <Property name="group" value="nogroup1"/>
-            <Property name="mode" value="static"/>
+            <Property name="group" value="group-hotspot1"/>
+            <Property name="mode" value="hotspot"/>
+            <Property name="selection-mode" value="_all"/>
             <Property name="x-axis">
                 <PVStructure>
                     <Property name="axis-name" value="x"/>
                     <Property name="upper-bound" value="10"/>
-                    <Property name="lower-bound" value="-5"/>
-                    <Property name="interval" value="11"/>
+                    <Property name="lower-bound" value="-10"/>
+                    <Property name="interval" value="1"/>
                     <Property name="decimal-places" value="0"/>
                     <Property name="minor-tick-count" value="0"/>
                 </PVStructure>
@@ -22,9 +23,9 @@
             <Property name="y-axis">
                 <PVStructure>
                     <Property name="axis-name" value="y"/>
-                    <Property name="upper-bound" value="12000"/>
-                    <Property name="lower-bound" value="0"/>
-                    <Property name="interval" value="12000"/>
+                    <Property name="upper-bound" value="10"/>
+                    <Property name="lower-bound" value="-10"/>
+                    <Property name="interval" value="1"/>
                     <Property name="decimal-places" value="0"/>
                     <Property name="minor-tick-count" value="0"/>
                 </PVStructure>
@@ -33,59 +34,62 @@
                 <PVStructure>
                     <Property name="id" value="crv-1"/>
                     <Property name="isvisible" value="True"/>
-                    <Property name="expression" value="2000(1.18)^x"/>
-                    <Property name="curve-type" value="_exponential"/>
+                    <Property name="expression" value="x(x+3)(x-2)"/>
+                    <Property name="curve-type" value="_cubic"/>
                     <Property name="style" value="SOLID"/>
                     <Property name="color" value="NON_INTERACTIVE_1"/>
-                    <Property name="domain-min" value="-5"/>
+                    <Property name="domain-min" value="-10"/>
                     <Property name="domain-max" value="10"/>
                 </PVStructure>
+                <PVStructure>
+                    <Property name="id" value="crv-2"/>
+                    <Property name="isvisible" value="True"/>
+                    <Property name="expression" value="x^2"/>
+                    <Property name="curve-type" value="_quadratic"/>
+                    <Property name="style" value="SOLID"/>
+                    <Property name="color" value="NON_INTERACTIVE_1"/>
+                    <Property name="domain-min" value="-10"/>
+                    <Property name="domain-max" value="10"/>
+                </PVStructure>
+                <PVStructure>
+                    <Property name="id" value="crv-auto-1"/>
+                    <Property name="isvisible" value="False"/>
+                    <Property name="expression" value="x(x+3)(x-2)"/>
+                    <Property name="curve-type" value="_cubic"/>
+                    <Property name="style" value="SOLID"/>
+                    <Property name="color" value="NON_INTERACTIVE_1"/>
+                    <Property name="domain-min" value="-2"/>
+                    <Property name="domain-max" value="1"/>
+                </PVStructure>
             </Property>
-            <Property name="points">
+            <Property name="correct-selections">
                 <PVStructure>
-                    <Property name="id" value="p-1"/>
-                    <Property name="isvisible" value="True"/>
-                    <Property name="label" value="h&lt;b&gt;i&lt;/b&gt; &lt;i&gt;t&lt;/i&gt;here"/>
-                    <Property name="color" value="NON_INTERACTIVE_1"/>
-                    <Property name="display-type" value="_closedPoint"/>
-                    <Property name="x" value="0"/>
-                    <Property name="y" value="2000"/>
+                    <Property name="id" value="crv-2"/>
+                    <Property name="type" value="_curve"/>
                 </PVStructure>
                 <PVStructure>
-                    <Property name="id" value="p-2"/>
-                    <Property name="isvisible" value="True"/>
-                    <Property name="label" value="(2, 2784.80)"/>
-                    <Property name="color" value="NON_INTERACTIVE_1"/>
-                    <Property name="display-type" value="_closedPoint"/>
-                    <Property name="x" value="2"/>
-                    <Property name="y" value="2784.8"/>
+                    <Property name="id" value="crv-auto-1"/>
+                    <Property name="type" value="_curve"/>
                 </PVStructure>
+            </Property>
+            <Property name="bogus-selection-jit" value="Incorrect. Take your time, re-read the directions, and think about the problem."/>
+        </ConstructionPVs>
+    </Property>
+    <Property name="component2">
+        <ConstructionPVs>
+            <Property name="type" value="HOTSPOT_BUTTON"/>
+            <Property name="tutor" value="FIB"/>
+            <Property name="order" value="2"/>
+            <Property name="group" value="group-hotspot1"/>
+            <Property name="reference-id" value="component1"/>
+            <Property name="label" value="No More"/>
+            <Property name="hints">
+                <Value>Read the prompt, then select all items in the graph</Value>
+            </Property>
+            <Property name="jits">
                 <PVStructure>
-                    <Property name="id" value="p-4"/>
-                    <Property name="isvisible" value="True"/>
-                    <Property name="label" value="&lt;latex&gt;(6,\quad 5399.10)&lt;/latex&gt;"/>
-                    <Property name="color" value="NON_INTERACTIVE_1"/>
-                    <Property name="display-type" value="_closedPoint"/>
-                    <Property name="x" value="6"/>
-                    <Property name="y" value="5399.1"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="id" value="p-5"/>
-                    <Property name="isvisible" value="True"/>
-                    <Property name="label" value="(8,   7517.70)"/>
-                    <Property name="color" value="NON_INTERACTIVE_1"/>
-                    <Property name="display-type" value="_closedPoint"/>
-                    <Property name="x" value="8"/>
-                    <Property name="y" value="7517.7"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="id" value="p-6"/>
-                    <Property name="isvisible" value="True"/>
-                    <Property name="label" value="(10,10468)"/>
-                    <Property name="color" value="NON_INTERACTIVE_1"/>
-                    <Property name="display-type" value="_closedPoint"/>
-                    <Property name="x" value="10"/>
-                    <Property name="y" value="10468"/>
+                    <Property name="text" value="You are not finished selecting items in the graph"/>
+                    <Property name="answer" value="true"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

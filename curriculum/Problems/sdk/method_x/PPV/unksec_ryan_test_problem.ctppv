@@ -4,92 +4,28 @@
     <Property name="lms-id" value="unksec_ryan_test_problem"/>
     <Property name="component1">
         <ConstructionPVs>
-            <Property name="type" value="GRAPH"/>
-            <Property name="tutor" value="FIB"/>
+            <Property name="type" value="TITLE"/>
+            <Property name="tutor" value="Scenario"/>
             <Property name="order" value="1"/>
-            <Property name="group" value="group-hotspot1"/>
-            <Property name="mode" value="hotspot"/>
-            <Property name="selection-mode" value="_all"/>
-            <Property name="x-axis">
-                <PVStructure>
-                    <Property name="axis-name" value="x"/>
-                    <Property name="upper-bound" value="10"/>
-                    <Property name="lower-bound" value="-10"/>
-                    <Property name="interval" value="1"/>
-                    <Property name="decimal-places" value="0"/>
-                    <Property name="minor-tick-count" value="0"/>
-                </PVStructure>
-            </Property>
-            <Property name="y-axis">
-                <PVStructure>
-                    <Property name="axis-name" value="y"/>
-                    <Property name="upper-bound" value="10"/>
-                    <Property name="lower-bound" value="-10"/>
-                    <Property name="interval" value="1"/>
-                    <Property name="decimal-places" value="0"/>
-                    <Property name="minor-tick-count" value="0"/>
-                </PVStructure>
-            </Property>
-            <Property name="curves">
-                <PVStructure>
-                    <Property name="id" value="crv-1"/>
-                    <Property name="isvisible" value="True"/>
-                    <Property name="expression" value="x(x+3)(x-2)"/>
-                    <Property name="curve-type" value="_cubic"/>
-                    <Property name="style" value="SOLID"/>
-                    <Property name="color" value="NON_INTERACTIVE_1"/>
-                    <Property name="domain-min" value="-10"/>
-                    <Property name="domain-max" value="10"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="id" value="crv-2"/>
-                    <Property name="isvisible" value="True"/>
-                    <Property name="expression" value="x^2"/>
-                    <Property name="curve-type" value="_quadratic"/>
-                    <Property name="style" value="SOLID"/>
-                    <Property name="color" value="NON_INTERACTIVE_1"/>
-                    <Property name="domain-min" value="-10"/>
-                    <Property name="domain-max" value="10"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="id" value="crv-auto-1"/>
-                    <Property name="isvisible" value="False"/>
-                    <Property name="expression" value="x(x+3)(x-2)"/>
-                    <Property name="curve-type" value="_cubic"/>
-                    <Property name="style" value="SOLID"/>
-                    <Property name="color" value="NON_INTERACTIVE_1"/>
-                    <Property name="domain-min" value="-2"/>
-                    <Property name="domain-max" value="1"/>
-                </PVStructure>
-            </Property>
-            <Property name="correct-selections">
-                <PVStructure>
-                    <Property name="id" value="crv-2"/>
-                    <Property name="type" value="_curve"/>
-                </PVStructure>
-                <PVStructure>
-                    <Property name="id" value="crv-auto-1"/>
-                    <Property name="type" value="_curve"/>
-                </PVStructure>
-            </Property>
-            <Property name="bogus-selection-jit" value="Incorrect. Take your time, re-read the directions, and think about the problem."/>
+            <Property name="group" value="nogroup1"/>
+            <Property name="text" value="This is a title"/>
         </ConstructionPVs>
     </Property>
     <Property name="component2">
         <ConstructionPVs>
-            <Property name="type" value="HOTSPOT_BUTTON"/>
+            <Property name="type" value="METHOD_X_FIB"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="2"/>
-            <Property name="group" value="group-hotspot1"/>
-            <Property name="reference-id" value="component1"/>
-            <Property name="label" value="No More"/>
-            <Property name="hints">
-                <Value>Read the prompt, then select all items in the graph</Value>
-            </Property>
-            <Property name="jits">
+            <Property name="group" value="group1"/>
+            <Property name="text" value="hello &lt;latex&gt;\frac{1}{2}&lt;/latex&gt; ok {{1}}"/>
+            <Property name="option1">
                 <PVStructure>
-                    <Property name="text" value="You are not finished selecting items in the graph"/>
-                    <Property name="answer" value="true"/>
+                    <Property name="option-type" value="_textbox"/>
+                    <Property name="should-replace" value="True"/>
+                    <Property name="all answers">
+                        <Value>1</Value>
+                    </Property>
+                    <Property name="answer-checktype" value="_alg-equal"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>

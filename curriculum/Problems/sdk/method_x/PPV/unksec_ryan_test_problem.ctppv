@@ -4,30 +4,13 @@
     <Property name="lms-id" value="unksec_ryan_test_problem"/>
     <Property name="component1">
         <ConstructionPVs>
-            <Property name="type" value="TITLE"/>
-            <Property name="tutor" value="Scenario"/>
+            <Property name="type" value="SCENARIO_IMAGE"/>
+            <Property name="tutor" value="FIB"/>
             <Property name="order" value="1"/>
             <Property name="group" value="nogroup1"/>
-            <Property name="text" value="This is a title"/>
-        </ConstructionPVs>
-    </Property>
-    <Property name="component2">
-        <ConstructionPVs>
-            <Property name="type" value="METHOD_X_FIB"/>
-            <Property name="tutor" value="FIB"/>
-            <Property name="order" value="2"/>
-            <Property name="group" value="group1"/>
-            <Property name="text" value="helloa &lt;latex&gt;\frac{1}{2}&lt;/latex&gt; ok {{1}}"/>
-            <Property name="option1">
-                <PVStructure>
-                    <Property name="option-type" value="_textbox"/>
-                    <Property name="should-replace" value="True"/>
-                    <Property name="all answers">
-                        <Value>(0, 1)</Value>
-                    </Property>
-                    <Property name="answer-checktype" value="_coordinates"/>
-                </PVStructure>
-            </Property>
+            <Property name="annotation" value="&lt;latex&gt;\sqrt{\frac{1}{2}\cdot3^4}&lt;/latex&gt;&lt;br/&gt;there"/>
+            <Property name="annotation-side" value="right"/>
+            <Property name="content" value="ryan_test_problem_01.png"/>
         </ConstructionPVs>
     </Property>
 </ProblemMetaData>

@@ -4,13 +4,52 @@
     <Property name="lms-id" value="unksec_ryan_test_problem"/>
     <Property name="component1">
         <ConstructionPVs>
-            <Property name="type" value="SCENARIO_IMAGE"/>
+            <Property name="type" value="GRAPH"/>
             <Property name="tutor" value="FIB"/>
             <Property name="order" value="1"/>
             <Property name="group" value="nogroup1"/>
-            <Property name="annotation" value="&lt;latex&gt;\sqrt{\frac{1}{2}\cdot3^4}&lt;/latex&gt;&lt;br/&gt;there"/>
-            <Property name="annotation-side" value="right"/>
-            <Property name="content" value="ryan_test_problem_01.png"/>
+            <Property name="mode" value="static"/>
+            <Property name="x-axis">
+                <PVStructure>
+                    <Property name="axis-name" value="x"/>
+                    <Property name="upper-bound" value="10"/>
+                    <Property name="lower-bound" value="0"/>
+                    <Property name="interval" value="1"/>
+                    <Property name="decimal-places" value="0"/>
+                    <Property name="minor-tick-count" value="0"/>
+                    <Property name="axis-label" value=""/>
+                </PVStructure>
+            </Property>
+            <Property name="y-axis">
+                <PVStructure>
+                    <Property name="axis-name" value="y"/>
+                    <Property name="upper-bound" value="10"/>
+                    <Property name="lower-bound" value="0"/>
+                    <Property name="interval" value="1"/>
+                    <Property name="decimal-places" value="0"/>
+                    <Property name="minor-tick-count" value="0"/>
+                    <Property name="axis-label" value=""/>
+                </PVStructure>
+            </Property>
+            <Property name="points">
+                <PVStructure>
+                    <Property name="id" value="p-1"/>
+                    <Property name="isvisible" value="True"/>
+                    <Property name="label" value="1"/>
+                    <Property name="color" value="NON_INTERACTIVE_1"/>
+                    <Property name="display-type" value="_closedPoint"/>
+                    <Property name="x" value="1"/>
+                    <Property name="y" value="1"/>
+                </PVStructure>
+            </Property>
+            <Property name="labels">
+                <PVStructure>
+                    <Property name="text" value="2"/>
+                    <Property name="color" value="NON_INTERACTIVE_4"/>
+                    <Property name="x" value="2"/>
+                    <Property name="y" value="2"/>
+                </PVStructure>
+            </Property>
         </ConstructionPVs>
     </Property>
 </ProblemMetaData>

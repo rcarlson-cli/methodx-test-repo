@@ -13,7 +13,7 @@
                 <PVStructure>
                     <Property name="axis-name" value="x"/>
                     <Property name="upper-bound" value="10"/>
-                    <Property name="lower-bound" value="0"/>
+                    <Property name="lower-bound" value="-10"/>
                     <Property name="interval" value="1"/>
                     <Property name="decimal-places" value="0"/>
                     <Property name="minor-tick-count" value="0"/>
@@ -24,30 +24,23 @@
                 <PVStructure>
                     <Property name="axis-name" value="y"/>
                     <Property name="upper-bound" value="10"/>
-                    <Property name="lower-bound" value="0"/>
+                    <Property name="lower-bound" value="-10"/>
                     <Property name="interval" value="1"/>
                     <Property name="decimal-places" value="0"/>
                     <Property name="minor-tick-count" value="0"/>
                     <Property name="axis-label" value=""/>
                 </PVStructure>
             </Property>
-            <Property name="points">
+            <Property name="curves">
                 <PVStructure>
-                    <Property name="id" value="p-1"/>
+                    <Property name="id" value="crv-2"/>
                     <Property name="isvisible" value="True"/>
-                    <Property name="label" value="1"/>
+                    <Property name="constant" value="4"/>
+                    <Property name="curve-type" value="_vertical"/>
+                    <Property name="style" value="SOLID"/>
                     <Property name="color" value="NON_INTERACTIVE_1"/>
-                    <Property name="display-type" value="_closedPoint"/>
-                    <Property name="x" value="1"/>
-                    <Property name="y" value="1"/>
-                </PVStructure>
-            </Property>
-            <Property name="labels">
-                <PVStructure>
-                    <Property name="text" value="2"/>
-                    <Property name="color" value="NON_INTERACTIVE_4"/>
-                    <Property name="x" value="2"/>
-                    <Property name="y" value="2"/>
+                    <Property name="domain-min" value="-10"/>
+                    <Property name="domain-max" value="10"/>
                 </PVStructure>
             </Property>
         </ConstructionPVs>
